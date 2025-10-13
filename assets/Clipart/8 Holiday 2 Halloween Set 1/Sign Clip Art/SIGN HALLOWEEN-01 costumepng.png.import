@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://db86omj8cvmv4"
+path="res://.godot/imported/SIGN HALLOWEEN-01 costumepng.png-0cddc6b94e2a73c5f700443dd9033185.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://assets/Clipart/8 Holiday 2 Halloween Set 1/Sign Clip Art/SIGN HALLOWEEN-01 costumepng.png"
+dest_files=["res://.godot/imported/SIGN HALLOWEEN-01 costumepng.png-0cddc6b94e2a73c5f700443dd9033185.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

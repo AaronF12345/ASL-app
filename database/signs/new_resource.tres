@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=2 format=3 uid="uid://bj4c3f72iwk2n"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_8q57c"]
+
+[resource]
+script = ExtResource("1_8q57c")
+Topic = 0
+Word = ""
+SignArt = ""
+AltSignArt = ""
+ImageArt = ""
+AltImageArt = ""
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"
