@@ -1,13 +1,8 @@
 extends Resource
 class_name AbstractSign
 
-enum TOPICS {
-	BASIC,
-}
-
-@export var Topic : TOPICS
 @export var Word : String
-@export var SignArt : String
-@export var AltSignArt : String
-@export var ImageArt : String
-@export var AltImageArt : String
+@export var SignArt : CompressedTexture2D
+@export var AltSignArt : CompressedTexture2D
+@export var ImageArt : CompressedTexture2D
+@export var AltImageArt : CompressedTexture2D

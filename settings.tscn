@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://8t40hix2ueyk"]
+[gd_scene load_steps=4 format=3 uid="uid://8t40hix2ueyk"]
 
 [ext_resource type="Script" uid="uid://btu5ff3tqffov" path="res://settings.gd" id="1_nkug2"]
 [ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="1_x2hje"]
+[ext_resource type="PackedScene" uid="uid://c7iqk576shc0i" path="res://trans.tscn" id="3_3ykye"]
 
 [node name="settings" type="Control"]
 layout_mode = 3
@@ -140,5 +141,8 @@ uri = "https://aslteachingresources.com/"
 layout_mode = 2
 theme = ExtResource("1_x2hje")
 text = "Back"
+
+[node name="trans" parent="." instance=ExtResource("3_3ykye")]
+layout_mode = 1
 
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=3 format=3 uid="uid://phc55h5dfu6f"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_crh1f"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_gnsnh"]
+
+[resource]
+script = ExtResource("2_gnsnh")
+Name = "Colors"
+Signs = Dictionary[int, ExtResource("1_crh1f")]({})
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

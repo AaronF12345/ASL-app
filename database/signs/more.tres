@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bqvq86cww5q54"]
+
+[ext_resource type="Texture2D" uid="uid://ec4uomct83wk" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign MORE hands-02 - Copy.png" id="1_hh2iu"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_l6s5o"]
+[ext_resource type="Texture2D" uid="uid://ckvg4e31rc1pd" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign MORE hands-01 - Copy.png" id="2_sibdk"]
+
+[resource]
+script = ExtResource("1_l6s5o")
+Word = "More"
+SignArt = ExtResource("2_sibdk")
+AltSignArt = ExtResource("1_hh2iu")
+ImageArt = ExtResource("2_sibdk")
+AltImageArt = ExtResource("1_hh2iu")
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=3 format=3 uid="uid://dntsla3p7ihh8"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_cibve"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_u1fvp"]
+
+[resource]
+script = ExtResource("2_u1fvp")
+Name = "Numbers"
+Signs = Dictionary[int, ExtResource("1_cibve")]({})
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

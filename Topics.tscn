@@ -1,0 +1,81 @@
+[gd_scene load_steps=6 format=3 uid="uid://bcta533372hs4"]
+
+[ext_resource type="Script" uid="uid://c4elu783a1oyn" path="res://topics.gd" id="1_jxgap"]
+[ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="2_ktjvb"]
+[ext_resource type="Script" uid="uid://c8vsftqwib21k" path="res://topic_display.gd" id="3_arp5r"]
+[ext_resource type="Resource" uid="uid://dootuhfh6xf8l" path="res://database/database.tres" id="4_arp5r"]
+[ext_resource type="PackedScene" uid="uid://c7iqk576shc0i" path="res://trans.tscn" id="5_jxgap"]
+
+[node name="topics" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jxgap")
+mainMenu = "res://main menu.tscn"
+games = "res://games.tscn"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_ktjvb")
+
+[node name="Panel" type="Panel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_ktjvb")
+
+[node name="Label" type="Label" parent="VBoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_ktjvb")
+text = "topics"
+vertical_alignment = 1
+uppercase = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 7.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 7.0
+theme = ExtResource("2_ktjvb")
+alignment = 1
+script = ExtResource("3_arp5r")
+database = ExtResource("4_arp5r")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_ktjvb")
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/ScrollContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_ktjvb")
+
+[node name="Button2" type="Button" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(0, 275)
+layout_mode = 2
+theme = ExtResource("2_ktjvb")
+text = "BACK"
+
+[node name="trans" parent="." instance=ExtResource("5_jxgap")]
+layout_mode = 1
+
+[connection signal="pressed" from="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/Button2" to="." method="_on_button_2_pressed"]

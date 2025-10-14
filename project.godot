@@ -15,6 +15,10 @@ run/main_scene="res://main menu.tscn"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+Options="*res://database/options.gd"
+
 [display]
 
 window/energy_saving/keep_screen_on=false

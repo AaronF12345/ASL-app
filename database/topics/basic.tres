@@ -1,0 +1,47 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=21 format=3 uid="uid://cao4pwyx78msi"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_7oriv"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_e71gq"]
+[ext_resource type="Resource" uid="uid://bj4c3f72iwk2n" path="res://database/signs/bed.tres" id="2_g4r58"]
+[ext_resource type="Resource" uid="uid://cvjvutf3rp2sw" path="res://database/signs/bottle.tres" id="3_xxl5g"]
+[ext_resource type="Resource" uid="uid://bx862m5ocyi3o" path="res://database/signs/dad_father.tres" id="4_swara"]
+[ext_resource type="Resource" uid="uid://0soe7qwiijej" path="res://database/signs/eat.tres" id="5_i2cug"]
+[ext_resource type="Resource" uid="uid://c4yywcunyecph" path="res://database/signs/finish.tres" id="6_7eyii"]
+[ext_resource type="Resource" uid="uid://dovps2ho0o3t1" path="res://database/signs/help.tres" id="7_lbmxu"]
+[ext_resource type="Resource" uid="uid://csplxpmci0nul" path="res://database/signs/hungry.tres" id="8_oh2v8"]
+[ext_resource type="Resource" uid="uid://dqi6hk06cu70u" path="res://database/signs/hurt.tres" id="9_s7d75"]
+[ext_resource type="Resource" uid="uid://b30uusap5p1cu" path="res://database/signs/milk.tres" id="10_f8sq2"]
+[ext_resource type="Resource" uid="uid://bqvq86cww5q54" path="res://database/signs/more.tres" id="11_yuykn"]
+[ext_resource type="Resource" uid="uid://vknrnhvb0acj" path="res://database/signs/mother.tres" id="12_6wkg1"]
+[ext_resource type="Resource" uid="uid://dhjjhu12eycjm" path="res://database/signs/play.tres" id="13_8itcy"]
+[ext_resource type="Resource" uid="uid://bcgfdcfmnptal" path="res://database/signs/please.tres" id="14_onl3l"]
+[ext_resource type="Resource" uid="uid://w6n28gbjnk03" path="res://database/signs/sleep.tres" id="15_dvih4"]
+[ext_resource type="Resource" uid="uid://cit0xncv760j0" path="res://database/signs/snack.tres" id="16_gjaky"]
+[ext_resource type="Resource" uid="uid://6x14ahhcfbx4" path="res://database/signs/sorry.tres" id="17_t0wjd"]
+[ext_resource type="Resource" uid="uid://btue5kbkdi4nb" path="res://database/signs/thank_you.tres" id="18_gytac"]
+[ext_resource type="Resource" uid="uid://b02lh7oqrrhgx" path="res://database/signs/want.tres" id="19_odk10"]
+
+[resource]
+script = ExtResource("2_e71gq")
+Name = "Basic"
+Signs = Dictionary[int, ExtResource("1_7oriv")]({
+0: ExtResource("2_g4r58"),
+1: ExtResource("3_xxl5g"),
+2: ExtResource("4_swara"),
+3: ExtResource("5_i2cug"),
+4: ExtResource("6_7eyii"),
+5: ExtResource("7_lbmxu"),
+6: ExtResource("8_oh2v8"),
+7: ExtResource("9_s7d75"),
+8: ExtResource("10_f8sq2"),
+9: ExtResource("11_yuykn"),
+10: ExtResource("12_6wkg1"),
+11: ExtResource("13_8itcy"),
+12: ExtResource("14_onl3l"),
+13: ExtResource("15_dvih4"),
+14: ExtResource("16_gjaky"),
+15: ExtResource("17_t0wjd"),
+16: ExtResource("18_gytac"),
+17: ExtResource("19_odk10")
+})
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"
