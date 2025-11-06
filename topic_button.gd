@@ -1,6 +1,6 @@
 extends Button
 
-@export var topic : Topic
+@export var topic : String
 
 func _on_pressed() -> void:
-	Options.topic = topic
+	Options.topic = load(topic)

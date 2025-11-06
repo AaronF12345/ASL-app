@@ -1,18 +1,13 @@
-[gd_resource type="Resource" script_class="Database" load_steps=7 format=3 uid="uid://dootuhfh6xf8l"]
+[gd_resource type="Resource" script_class="Database" load_steps=2 format=3 uid="uid://dootuhfh6xf8l"]
 
-[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="1_ixlbl"]
-[ext_resource type="Resource" uid="uid://cao4pwyx78msi" path="res://database/topics/basic.tres" id="2_2qm3k"]
 [ext_resource type="Script" uid="uid://wfx36o0wt665" path="res://database/database.gd" id="2_sxewp"]
-[ext_resource type="Resource" uid="uid://phc55h5dfu6f" path="res://database/topics/colors.tres" id="3_iv3qp"]
-[ext_resource type="Resource" uid="uid://bfwxi6pr4vbin" path="res://database/topics/manners.tres" id="4_lpxqo"]
-[ext_resource type="Resource" uid="uid://dntsla3p7ihh8" path="res://database/topics/numbers.tres" id="5_dfkyd"]
 
 [resource]
 script = ExtResource("2_sxewp")
-database = Dictionary[int, ExtResource("1_ixlbl")]({
-0: ExtResource("2_2qm3k"),
-1: ExtResource("3_iv3qp"),
-2: ExtResource("4_lpxqo"),
-3: ExtResource("5_dfkyd")
+database = Dictionary[int, String]({
+0: "res://database/topics/basic.tres",
+1: "res://database/topics/colors.tres",
+2: "res://database/topics/manners.tres",
+3: "res://database/topics/numbers.tres"
 })
 metadata/_custom_type_script = "uid://wfx36o0wt665"
