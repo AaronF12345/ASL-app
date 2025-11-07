@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dt8rinuht5lrk"]
+
+[ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="1_gkpd4"]
+[ext_resource type="Script" uid="uid://s5b4wc6oxsy" path="res://menus/quiz_button.gd" id="2_gkpd4"]
+
+[node name="quiz_button" type="Button"]
+custom_minimum_size = Vector2(0, 275)
+theme = ExtResource("1_gkpd4")
+text = "answer"
+script = ExtResource("2_gkpd4")
