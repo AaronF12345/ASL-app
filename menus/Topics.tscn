@@ -14,8 +14,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_jxgap")
-mainMenu = "res://main menu.tscn"
-games = "res://games.tscn"
+mainMenu = "res://menus/main menu.tscn"
+games = "res://menus/games.tscn"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1

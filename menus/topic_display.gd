@@ -3,7 +3,7 @@ extends HBoxContainer
 @export var database : Database
 @onready var v_box_container: VBoxContainer = $VBoxContainer
 @onready var v_box_container_2: VBoxContainer = $VBoxContainer2
-const TOPIC_BUTTON = preload("res://topic_button.tscn")
+const TOPIC_BUTTON = preload("res://menus/topic_button.tscn")
 var flip : bool = true
 @onready var main: Control = $"../../.."
 

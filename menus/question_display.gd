@@ -3,7 +3,7 @@ extends HBoxContainer
 @export var database : Database
 @onready var v_box_container: VBoxContainer = $VBoxContainer
 @onready var v_box_container_2: VBoxContainer = $VBoxContainer2
-const QUIZ_BUTTON = preload("res://quiz_button.tscn")
+const QUIZ_BUTTON = preload("res://menus/quiz_button.tscn")
 var flip : bool = true
 @onready var main: Control = $"../../../.."
 var signid : int = Options.rand.randi_range(0,Options.topic.Signs.size()-1)

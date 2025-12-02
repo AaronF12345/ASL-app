@@ -12,8 +12,9 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_83gue")
-mainMenu = "res://Topics.tscn"
-quiz = "res://quizQuestion.tscn"
+mainMenu = "res://menus/Topics.tscn"
+quiz = "res://menus/quizsetup.tscn"
+tiles = "res://menus/tilesetup.tscn"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -59,12 +60,6 @@ layout_mode = 2
 theme = ExtResource("1_004ps")
 text = "game1"
 
-[node name="Button3" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
-custom_minimum_size = Vector2(0, 275)
-layout_mode = 2
-theme = ExtResource("1_004ps")
-text = "game3"
-
 [node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
@@ -88,4 +83,5 @@ offset_top = 648.0
 offset_bottom = 648.0
 
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer/quiz" to="." method="_on_quiz_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer2/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer2/Button2" to="." method="_on_button_2_pressed"]

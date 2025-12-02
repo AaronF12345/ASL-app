@@ -1,10 +1,25 @@
-[gd_scene load_steps=6 format=3 uid="uid://dkme7tm0b0xfl"]
+[gd_scene load_steps=9 format=3 uid="uid://dkme7tm0b0xfl"]
 
 [ext_resource type="Script" uid="uid://bbp6j08wer8w3" path="res://menus/questions.gd" id="1_mk2jk"]
 [ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="2_f4tri"]
 [ext_resource type="Texture2D" uid="uid://clm7ujvilflg0" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign BOTTLE-01 - Copy.png" id="3_mk2jk"]
 [ext_resource type="Script" uid="uid://yuecq2frkyfi" path="res://menus/question_display.gd" id="3_oij3u"]
 [ext_resource type="PackedScene" uid="uid://c7iqk576shc0i" path="res://trans.tscn" id="5_ee520"]
+[ext_resource type="FontFile" uid="uid://codyl032wn7st" path="res://ASLABCTransparent (1).otf" id="6_68121"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_68121"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_t5abs"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(1, 0, 0, 1)
+corner_radius_top_left = 30
+corner_radius_top_right = 30
+corner_radius_bottom_right = 30
+corner_radius_bottom_left = 30
+corner_detail = 6
 
 [node name="quiz" type="Control"]
 layout_mode = 3
@@ -14,7 +29,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_mk2jk")
-mainMenu = "res://main menu.tscn"
+mainMenu = "res://menus/games.tscn"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -39,6 +54,12 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/Panel/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 0.03
+theme = ExtResource("2_f4tri")
+
 [node name="Label" type="Label" parent="VBoxContainer/Panel/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 2
@@ -62,6 +83,23 @@ layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme = ExtResource("2_f4tri")
+theme_override_styles/background = SubResource("StyleBoxEmpty_68121")
+max_value = 5.0
+step = 1.0
+show_percentage = false
+
+[node name="ProgressBar2" type="ProgressBar" parent="VBoxContainer/Panel/HBoxContainer/VBoxContainer/ProgressBar"]
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_f4tri")
+theme_override_styles/fill = SubResource("StyleBoxFlat_t5abs")
 max_value = 5.0
 step = 1.0
 show_percentage = false
@@ -74,7 +112,7 @@ size_flags_stretch_ratio = 0.6
 [node name="VSeparator" type="VSeparator" parent="VBoxContainer/Panel/HBoxContainer"]
 layout_mode = 2
 size_flags_horizontal = 3
-size_flags_stretch_ratio = 0.08
+size_flags_stretch_ratio = 0.03
 theme = ExtResource("2_f4tri")
 
 [node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
@@ -140,3 +178,12 @@ theme = ExtResource("2_f4tri")
 layout_mode = 1
 offset_top = 648.0
 offset_bottom = 648.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 221.0
+offset_top = -127.0
+offset_right = 760.0
+offset_bottom = -19.0
+theme_override_fonts/font = ExtResource("6_68121")
+text = "hello"

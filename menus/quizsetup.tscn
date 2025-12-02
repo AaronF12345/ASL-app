@@ -1,0 +1,125 @@
+[gd_scene load_steps=4 format=3 uid="uid://dujrxl38287re"]
+
+[ext_resource type="Script" uid="uid://c8qaw1alj28jc" path="res://menus/quizsetup.gd" id="1_dwhuv"]
+[ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="2_hdwss"]
+[ext_resource type="PackedScene" uid="uid://c7iqk576shc0i" path="res://trans.tscn" id="3_y6e0p"]
+
+[node name="setup" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dwhuv")
+games = "res://menus/games.tscn"
+quiz = "res://menus/quizQuestion.tscn"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_hdwss")
+
+[node name="Label" type="Label" parent="VBoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_hdwss")
+text = "quiz options"
+vertical_alignment = 1
+uppercase = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 7.0
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_hdwss")
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_hdwss")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_hdwss")
+text = "Length"
+
+[node name="SpinBox" type="SpinBox" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_hdwss")
+min_value = 5.0
+value = 5.0
+
+[node name="ReferenceRect" type="ReferenceRect" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer/SpinBox"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+border_width = 5.0
+
+[node name="PanelContainer2" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer2"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_hdwss")
+text = "Answers"
+
+[node name="SpinBox2" type="SpinBox" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer2/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_hdwss")
+min_value = 1.0
+max_value = 6.0
+value = 4.0
+
+[node name="start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_hdwss")
+text = "Start"
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_hdwss")
+text = "Back"
+
+[node name="trans" parent="." instance=ExtResource("3_y6e0p")]
+layout_mode = 1
+offset_top = 648.0
+offset_bottom = 648.0
+
+[connection signal="value_changed" from="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer/SpinBox" to="." method="_on_spin_box_value_changed"]
+[connection signal="value_changed" from="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer2/HBoxContainer2/SpinBox2" to="." method="_on_spin_box_2_value_changed"]
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]
