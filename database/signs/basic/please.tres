@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bcgfdcfmnptal"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_men1s"]
+[ext_resource type="Texture2D" uid="uid://byscqkv7dgj27" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign PLEASE-02 - Copy.png" id="2_a1eag"]
+[ext_resource type="Texture2D" uid="uid://b4hfl0b5at376" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign PLEASE-01 - Copy.png" id="4_7gqsv"]
+
+[resource]
+script = ExtResource("1_men1s")
+Word = "please"
+SignArt = ExtResource("4_7gqsv")
+AltSignArt = ExtResource("2_a1eag")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

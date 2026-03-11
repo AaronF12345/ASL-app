@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://df0a7wdhbw60c"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_th0v7"]
+[ext_resource type="Texture2D" uid="uid://e0q7sjw24dom" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign SIX-02 - Copy.png" id="2_wj4yu"]
+[ext_resource type="Texture2D" uid="uid://b8pr1cdjsia26" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign SIX-01 - Copy.png" id="4_2wrys"]
+
+[resource]
+script = ExtResource("1_th0v7")
+Word = "six"
+SignArt = ExtResource("4_2wrys")
+AltSignArt = ExtResource("2_wj4yu")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

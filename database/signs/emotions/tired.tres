@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bje8rwx3giwu6"]
+
+[ext_resource type="Texture2D" uid="uid://chts42uecqdjm" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign TIRED-02 - Copy.png" id="1_fe82p"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_slr8r"]
+[ext_resource type="Texture2D" uid="uid://dx5pw4u6hykgo" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign TIRED-01 - Copy.png" id="2_pl4qr"]
+
+[resource]
+resource_name = "tired.tres"
+script = ExtResource("1_slr8r")
+Word = "tired"
+SignArt = ExtResource("2_pl4qr")
+AltSignArt = ExtResource("1_fe82p")
+autofill = false

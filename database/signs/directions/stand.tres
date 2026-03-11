@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://dhf25rq3il8v"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_l75pq"]
+[ext_resource type="Texture2D" uid="uid://bcvlcyh48xmkj" path="res://assets/Clipart/3 Directions/Image Clipart/Stand-02 - Copy.png" id="1_negfe"]
+[ext_resource type="Texture2D" uid="uid://du7k2eb0mi4cs" path="res://assets/Clipart/3 Directions/Sign Clipart/SIGN STAND-02 - Copy.png" id="2_kttrl"]
+[ext_resource type="Texture2D" uid="uid://50snucxfby0b" path="res://assets/Clipart/3 Directions/Image Clipart/Stand-01 - Copy.png" id="3_kttrl"]
+[ext_resource type="Texture2D" uid="uid://decddsq6s011" path="res://assets/Clipart/3 Directions/Sign Clipart/SIGN STAND-01 - Copy.png" id="4_whag6"]
+
+[resource]
+resource_name = "stand.tres"
+script = ExtResource("1_l75pq")
+Word = "stand"
+SignArt = ExtResource("4_whag6")
+AltSignArt = ExtResource("2_kttrl")
+ImageArt = ExtResource("3_kttrl")
+AltImageArt = ExtResource("1_negfe")
+autofill = false

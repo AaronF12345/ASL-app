@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dxwh2dqg6sex"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_0l3ta"]
+[ext_resource type="Texture2D" uid="uid://mmkx4codusee" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign CENT-02 - Copy.png" id="1_3cv36"]
+[ext_resource type="Texture2D" uid="uid://t6lf7mh5p8bv" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign CENT-01 - Copy.png" id="2_8fth8"]
+
+[resource]
+resource_name = "cent.tres"
+script = ExtResource("1_0l3ta")
+Word = "cent"
+SignArt = ExtResource("2_8fth8")
+AltSignArt = ExtResource("1_3cv36")
+autofill = false

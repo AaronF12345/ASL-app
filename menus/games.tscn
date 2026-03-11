@@ -58,7 +58,7 @@ theme = ExtResource("1_004ps")
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
 theme = ExtResource("1_004ps")
-text = "game1"
+text = "quiz"
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
@@ -69,13 +69,13 @@ theme = ExtResource("1_004ps")
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
 theme = ExtResource("1_004ps")
-text = "game2"
+text = "tiles"
 
 [node name="Button2" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer2"]
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
 theme = ExtResource("1_004ps")
-text = "BACK"
+text = "back"
 
 [node name="trans" parent="." instance=ExtResource("3_617k1")]
 layout_mode = 1

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dtpnd8ju8kaft"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_sbbso"]
+[ext_resource type="Texture2D" uid="uid://c4de78ow0vo1k" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign SILLY-02 - Copy.png" id="1_v23ff"]
+[ext_resource type="Texture2D" uid="uid://cu2qpkjicymei" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign SILLY-01 - Copy.png" id="2_07cof"]
+
+[resource]
+resource_name = "silly.tres"
+script = ExtResource("1_sbbso")
+Word = "silly"
+SignArt = ExtResource("2_07cof")
+AltSignArt = ExtResource("1_v23ff")
+autofill = false

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://cyjipa5t4e1i3"]
+
+[ext_resource type="Texture2D" uid="uid://0sqq3xtu2o2q" path="res://assets/Clipart/18 Money/Image Clip Art/total 3-02 - Copy.png" id="1_vh0d0"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_wfjww"]
+[ext_resource type="Texture2D" uid="uid://c8s234cm0jqe1" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign TOTAL-02 - Copy.png" id="2_vmy7e"]
+[ext_resource type="Texture2D" uid="uid://do62spbjqllte" path="res://assets/Clipart/18 Money/Image Clip Art/total 3-01 - Copy.png" id="3_dsob0"]
+[ext_resource type="Texture2D" uid="uid://62dl724kxss3" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign TOTAL-01 - Copy.png" id="4_ekv17"]
+
+[resource]
+resource_name = "total.tres"
+script = ExtResource("1_wfjww")
+Word = "total"
+SignArt = ExtResource("4_ekv17")
+AltSignArt = ExtResource("2_vmy7e")
+ImageArt = ExtResource("3_dsob0")
+AltImageArt = ExtResource("1_vh0d0")
+autofill = false

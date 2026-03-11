@@ -1,0 +1,38 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=16 format=3 uid="uid://hqeek3ldj8pn"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ux34l"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_484ry"]
+[ext_resource type="Resource" uid="uid://cxgduvofu0qny" path="res://database/signs/emotions/bored.tres" id="2_tm7py"]
+[ext_resource type="Resource" uid="uid://bcccff10v2pj6" path="res://database/signs/emotions/cry.tres" id="3_qp5b6"]
+[ext_resource type="Resource" uid="uid://bte51feghbvr5" path="res://database/signs/emotions/dont like.tres" id="4_065gq"]
+[ext_resource type="Resource" uid="uid://bag4n3nqbtv65" path="res://database/signs/emotions/emotions.tres" id="5_nnm3i"]
+[ext_resource type="Resource" uid="uid://cisy45px22cpb" path="res://database/signs/emotions/feel fine.tres" id="6_p0dg6"]
+[ext_resource type="Resource" uid="uid://camarsu4b7ut6" path="res://database/signs/emotions/happy.tres" id="7_0yl1i"]
+[ext_resource type="Resource" uid="uid://dchkahixpibrv" path="res://database/signs/emotions/like.tres" id="8_l574q"]
+[ext_resource type="Resource" uid="uid://kgf1r31tkvqa" path="res://database/signs/emotions/mad.tres" id="9_x5kj4"]
+[ext_resource type="Resource" uid="uid://b3u2276dsyymw" path="res://database/signs/emotions/proud.tres" id="10_pv66k"]
+[ext_resource type="Resource" uid="uid://ue0cr8lqgo0u" path="res://database/signs/emotions/sad.tres" id="11_yeprq"]
+[ext_resource type="Resource" uid="uid://biij7ahuude71" path="res://database/signs/emotions/scared.tres" id="12_gwvm3"]
+[ext_resource type="Resource" uid="uid://dtpnd8ju8kaft" path="res://database/signs/emotions/silly.tres" id="13_upiea"]
+[ext_resource type="Resource" uid="uid://bje8rwx3giwu6" path="res://database/signs/emotions/tired.tres" id="14_janop"]
+
+[resource]
+script = ExtResource("2_484ry")
+Name = "emotions"
+Signs = Dictionary[int, ExtResource("1_ux34l")]({
+0: ExtResource("2_tm7py"),
+1: ExtResource("3_qp5b6"),
+2: ExtResource("4_065gq"),
+3: ExtResource("5_nnm3i"),
+4: ExtResource("6_p0dg6"),
+5: ExtResource("7_0yl1i"),
+6: ExtResource("8_l574q"),
+7: ExtResource("9_x5kj4"),
+8: ExtResource("10_pv66k"),
+9: ExtResource("11_yeprq"),
+10: ExtResource("12_gwvm3"),
+11: ExtResource("13_upiea"),
+12: ExtResource("14_janop")
+})
+autofill = false
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

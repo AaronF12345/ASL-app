@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bfwoaquyjc08c"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_0tv63"]
+[ext_resource type="Texture2D" uid="uid://5a2uqvxbatxj" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign PAY ATTENTION-02 - Copy.png" id="2_td5oy"]
+[ext_resource type="Texture2D" uid="uid://xuaur0hwsfko" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign PAY ATTENTION-01 - Copy.png" id="4_88ujq"]
+
+[resource]
+script = ExtResource("1_0tv63")
+Word = "pay attention"
+SignArt = ExtResource("4_88ujq")
+AltSignArt = ExtResource("2_td5oy")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

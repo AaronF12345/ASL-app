@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bkkh6ghspnkfm"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_jxrss"]
+[ext_resource type="Texture2D" uid="uid://bkdpy87m5ei6q" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign RESPECT-02 - Copy.png" id="2_5fts0"]
+[ext_resource type="Texture2D" uid="uid://iq8x46rfvg4i" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign RESPECT-01 - Copy.png" id="4_g3ra0"]
+
+[resource]
+script = ExtResource("1_jxrss")
+Word = "respect"
+SignArt = ExtResource("4_g3ra0")
+AltSignArt = ExtResource("2_5fts0")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

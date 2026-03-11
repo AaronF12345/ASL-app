@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://cmfb70uievy71"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_28eg3"]
+[ext_resource type="Texture2D" uid="uid://bpkkjvf0528v" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign WHITE-02.png" id="2_getbm"]
+[ext_resource type="Texture2D" uid="uid://cbk8grv82he15" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign WHITE-01.png" id="4_mr5q0"]
+
+[resource]
+script = ExtResource("1_28eg3")
+Word = "white"
+SignArt = ExtResource("4_mr5q0")
+AltSignArt = ExtResource("2_getbm")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

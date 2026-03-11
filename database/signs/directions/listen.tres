@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://dg7mb6gmf4n1a"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_3hgxb"]
+[ext_resource type="Texture2D" uid="uid://b4f5bnk7yblwq" path="res://assets/Clipart/14 Manner/Image Clip Art/Listen-02 - Copy.png" id="1_i1e4x"]
+[ext_resource type="Texture2D" uid="uid://dlp51g4pehcvg" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign LISTEN-02 - Copy.png" id="2_qumsg"]
+[ext_resource type="Texture2D" uid="uid://5xlwknoywhev" path="res://assets/Clipart/14 Manner/Image Clip Art/Listen-01 - Copy.png" id="3_qumsg"]
+[ext_resource type="Texture2D" uid="uid://dueudgq8jw0fe" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign LISTEN-01 - Copy.png" id="4_4jkar"]
+
+[resource]
+resource_name = "listen.tres"
+script = ExtResource("1_3hgxb")
+Word = "listen"
+SignArt = ExtResource("4_4jkar")
+AltSignArt = ExtResource("2_qumsg")
+ImageArt = ExtResource("3_qumsg")
+AltImageArt = ExtResource("1_i1e4x")
+autofill = false

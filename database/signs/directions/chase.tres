@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://dh5in725l6et2"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_c7ihs"]
+[ext_resource type="Texture2D" uid="uid://bjomqsnc3yvo1" path="res://assets/Clipart/3 Directions/Image Clipart/Chase-02 - Copy.png" id="1_ixc63"]
+[ext_resource type="Texture2D" uid="uid://blup23fq637a" path="res://assets/Clipart/3 Directions/Sign Clipart/SIGN CHASE-02 - Copy.png" id="2_ixc63"]
+[ext_resource type="Texture2D" uid="uid://k84svaeh3o2a" path="res://assets/Clipart/3 Directions/Image Clipart/Chase-01 - Copy.png" id="3_xuwcw"]
+[ext_resource type="Texture2D" uid="uid://brh1orugofwwc" path="res://assets/Clipart/3 Directions/Sign Clipart/SIGN CHASE-01 - Copy.png" id="4_xuwcw"]
+
+[resource]
+resource_name = "chase.tres"
+script = ExtResource("1_c7ihs")
+Word = "chase"
+SignArt = ExtResource("4_xuwcw")
+AltSignArt = ExtResource("2_ixc63")
+ImageArt = ExtResource("3_xuwcw")
+AltImageArt = ExtResource("1_ixc63")
+autofill = false

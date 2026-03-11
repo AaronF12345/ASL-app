@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bn6bq85vh32aj"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_tsrxv"]
+[ext_resource type="Texture2D" uid="uid://hctq5tgr7yip" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign FIVE-02 - Copy.png" id="2_8ar16"]
+[ext_resource type="Texture2D" uid="uid://dejec21wpdgy2" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign FIVE-01 - Copy.png" id="4_2fdsh"]
+
+[resource]
+script = ExtResource("1_tsrxv")
+Word = "five"
+SignArt = ExtResource("4_2fdsh")
+AltSignArt = ExtResource("2_8ar16")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

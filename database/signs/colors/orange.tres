@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bsojdxc8vhip5"]
+
+[ext_resource type="Texture2D" uid="uid://26si2r31lill" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign ORANGE-02.png" id="1_0h58i"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_w2pwe"]
+[ext_resource type="Texture2D" uid="uid://b7ipcilgiyty2" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign ORANGE-01.png" id="4_y1hyu"]
+
+[resource]
+script = ExtResource("1_w2pwe")
+Word = "orange"
+SignArt = ExtResource("4_y1hyu")
+AltSignArt = ExtResource("1_0h58i")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

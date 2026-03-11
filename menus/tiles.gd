@@ -3,6 +3,7 @@ extends Control
 @export var mainMenu : String
 @onready var trans: ColorRect = $trans
 @onready var progress_bar: ProgressBar = $VBoxContainer/Panel/HBoxContainer/VBoxContainer/ProgressBar
+@export var results : String
 
 func _ready() -> void:
 	progress_bar.max_value = Options.quiz_length
@@ -10,8 +11,9 @@ func _ready() -> void:
 
 func _on_button_2_pressed() -> void:
 	play_trans()
+	Options.current_question /= 2
 	await trans.finished
-	get_tree().change_scene_to_file(mainMenu)
+	get_tree().change_scene_to_file(results)
 
 func _on_ans():
 	Options.current_question += 2

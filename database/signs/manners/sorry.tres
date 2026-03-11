@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://b7arq0qchufpc"]
+
+[ext_resource type="Texture2D" uid="uid://c8k07kdfw4oj6" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign SORRY-02 - Copy.png" id="1_210sv"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ype36"]
+[ext_resource type="Texture2D" uid="uid://dk47ptgno7scd" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign SORRY-01 - Copy.png" id="4_al3nn"]
+
+[resource]
+script = ExtResource("1_ype36")
+Word = "sorry"
+SignArt = ExtResource("4_al3nn")
+AltSignArt = ExtResource("1_210sv")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

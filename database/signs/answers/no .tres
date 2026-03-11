@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://kd78wjfi2lk6"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_805js"]
+[ext_resource type="Texture2D" uid="uid://bn2ggvfyu8t38" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign NO black girl-02 - Copy.png" id="1_pbed1"]
+[ext_resource type="Texture2D" uid="uid://dnvbdjjd8pkes" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign NO black girl-01 - Copy.png" id="2_5t0jk"]
+
+[resource]
+resource_name = "no .tres"
+script = ExtResource("1_805js")
+Word = "no "
+SignArt = ExtResource("2_5t0jk")
+AltSignArt = ExtResource("1_pbed1")
+autofill = false

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://75irt03b0jhp"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_60qxq"]
+[ext_resource type="Texture2D" uid="uid://cotxuhvjgfn2m" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign DONT WANT-02 - Copy.png" id="2_vcklk"]
+[ext_resource type="Texture2D" uid="uid://e44ebdk7hrvt" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign DONT WANT-01 - Copy.png" id="4_mkokb"]
+
+[resource]
+resource_name = "dont want.tres"
+script = ExtResource("1_60qxq")
+Word = "dont want"
+SignArt = ExtResource("4_mkokb")
+AltSignArt = ExtResource("2_vcklk")
+autofill = false

@@ -1,10 +1,36 @@
-[gd_resource type="Resource" script_class="Topic" load_steps=3 format=3 uid="uid://phc55h5dfu6f"]
+[gd_resource type="Resource" script_class="Topic" load_steps=15 format=3 uid="uid://phc55h5dfu6f"]
 
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_crh1f"]
+[ext_resource type="Resource" uid="uid://cj5o7waugq3mp" path="res://database/signs/colors/black.tres" id="2_a1y8j"]
 [ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_gnsnh"]
+[ext_resource type="Resource" uid="uid://crptpqjtug6mf" path="res://database/signs/colors/blue.tres" id="3_dkubp"]
+[ext_resource type="Resource" uid="uid://li00h5lah7jr" path="res://database/signs/colors/brown.tres" id="4_35e2u"]
+[ext_resource type="Resource" uid="uid://clwcw0x80kr4s" path="res://database/signs/colors/color.tres" id="5_g2aoh"]
+[ext_resource type="Resource" uid="uid://vhuyw2vk8fop" path="res://database/signs/colors/gray.tres" id="6_paag1"]
+[ext_resource type="Resource" uid="uid://cg54domu80wfo" path="res://database/signs/colors/green.tres" id="7_7nggb"]
+[ext_resource type="Resource" uid="uid://bsojdxc8vhip5" path="res://database/signs/colors/orange.tres" id="8_ebr5x"]
+[ext_resource type="Resource" uid="uid://cs6lhsdfhvfi8" path="res://database/signs/colors/pink.tres" id="9_sk7lr"]
+[ext_resource type="Resource" uid="uid://cdli4w47jnmo3" path="res://database/signs/colors/purple.tres" id="10_wwui0"]
+[ext_resource type="Resource" uid="uid://ht0o533ps730" path="res://database/signs/colors/red.tres" id="11_tld7t"]
+[ext_resource type="Resource" uid="uid://cmfb70uievy71" path="res://database/signs/colors/white.tres" id="12_6bcpx"]
+[ext_resource type="Resource" uid="uid://dk5l3mqeqhicm" path="res://database/signs/colors/yellow.tres" id="13_dwk0b"]
 
 [resource]
 script = ExtResource("2_gnsnh")
-Name = "Colors"
-Signs = Dictionary[int, ExtResource("1_crh1f")]({})
+Name = "colors"
+Signs = Dictionary[int, ExtResource("1_crh1f")]({
+0: ExtResource("2_a1y8j"),
+1: ExtResource("3_dkubp"),
+2: ExtResource("4_35e2u"),
+3: ExtResource("5_g2aoh"),
+4: ExtResource("6_paag1"),
+5: ExtResource("7_7nggb"),
+6: ExtResource("8_ebr5x"),
+7: ExtResource("9_sk7lr"),
+8: ExtResource("10_wwui0"),
+9: ExtResource("11_tld7t"),
+10: ExtResource("12_6bcpx"),
+11: ExtResource("13_dwk0b")
+})
+autofill = false
 metadata/_custom_type_script = "uid://yrui3f6v7t3j"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bdpuh7b2yfwki"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_nenv8"]
+[ext_resource type="Texture2D" uid="uid://d4kundejewn2g" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign YOURE WELCOME-02 - Copy.png" id="2_r0t2y"]
+[ext_resource type="Texture2D" uid="uid://cd2rga1m8quwc" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign YOURE WELCOME-01 - Copy.png" id="4_17k13"]
+
+[resource]
+script = ExtResource("1_nenv8")
+Word = "youre welcome"
+SignArt = ExtResource("4_17k13")
+AltSignArt = ExtResource("2_r0t2y")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

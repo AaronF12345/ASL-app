@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bveel7lewxd6s"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_y2dxx"]
+[ext_resource type="Texture2D" uid="uid://d30w0oe0cx18o" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign DONT UNDERSTAND-02 - Copy.png" id="2_10goq"]
+[ext_resource type="Texture2D" uid="uid://bm0s7tj6qqq10" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign DONT UNDERSTAND-01 - Copy.png" id="4_jpg6s"]
+
+[resource]
+resource_name = "dont understand.tres"
+script = ExtResource("1_y2dxx")
+Word = "dont understand"
+SignArt = ExtResource("4_jpg6s")
+AltSignArt = ExtResource("2_10goq")
+autofill = false

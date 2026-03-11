@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://b7y6fhhx7w3mq"]
+
+[ext_resource type="Texture2D" uid="uid://bwgavurwamot0" path="res://assets/Clipart/3 Directions/Image Clipart/Left Right-02 - Copy.png" id="1_5g8tc"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_oq33r"]
+[ext_resource type="Texture2D" uid="uid://n3k5vqvy0su1" path="res://assets/Clipart/3 Directions/Sign Clipart/SIGN RIGHT-02 - Copy.png" id="2_ovjf8"]
+[ext_resource type="Texture2D" uid="uid://bjthfpga0x7xl" path="res://assets/Clipart/3 Directions/Image Clipart/Left Right-01 - Copy.png" id="3_ovjf8"]
+[ext_resource type="Texture2D" uid="uid://dsg7m1a3frbbw" path="res://assets/Clipart/3 Directions/Sign Clipart/SIGN RIGHT-01 - Copy.png" id="4_2mrh4"]
+
+[resource]
+resource_name = "right.tres"
+script = ExtResource("1_oq33r")
+Word = "right"
+SignArt = ExtResource("4_2mrh4")
+AltSignArt = ExtResource("2_ovjf8")
+ImageArt = ExtResource("3_ovjf8")
+AltImageArt = ExtResource("1_5g8tc")
+autofill = false

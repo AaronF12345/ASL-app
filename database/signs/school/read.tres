@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://ctdoqvh8hijh1"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_dvvwi"]
+[ext_resource type="Texture2D" uid="uid://dsfbkkfnolqu7" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign READ-02 - Copy.png" id="2_llail"]
+[ext_resource type="Texture2D" uid="uid://nhdpdnw5ddsx" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign READ-01 - Copy.png" id="4_rind2"]
+
+[resource]
+resource_name = "read.tres"
+script = ExtResource("1_dvvwi")
+Word = "read"
+SignArt = ExtResource("4_rind2")
+AltSignArt = ExtResource("2_llail")
+autofill = false

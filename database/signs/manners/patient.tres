@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://ch6xi18h6c63c"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_rh78d"]
+[ext_resource type="Texture2D" uid="uid://ct6krb2a26f5t" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign PATIENT-02 - Copy.png" id="2_l4nh0"]
+[ext_resource type="Texture2D" uid="uid://unwyi1cd7ksu" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign PATIENT-01 - Copy.png" id="4_rlm7h"]
+
+[resource]
+script = ExtResource("1_rh78d")
+Word = "patient"
+SignArt = ExtResource("4_rlm7h")
+AltSignArt = ExtResource("2_l4nh0")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

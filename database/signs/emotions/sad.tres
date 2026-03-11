@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://ue0cr8lqgo0u"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_w1dnh"]
+[ext_resource type="Texture2D" uid="uid://baep7g7f53sjg" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign SAD-02 - Copy.png" id="2_3k7lg"]
+[ext_resource type="Texture2D" uid="uid://biittadt47klr" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign SAD-01 - Copy.png" id="4_l386k"]
+
+[resource]
+resource_name = "sad.tres"
+script = ExtResource("1_w1dnh")
+Word = "sad"
+SignArt = ExtResource("4_l386k")
+AltSignArt = ExtResource("2_3k7lg")
+autofill = false

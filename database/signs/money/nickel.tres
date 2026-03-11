@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://olewwrnpqvfw"]
+
+[ext_resource type="Texture2D" uid="uid://bdc6km0jum0d3" path="res://assets/Clipart/18 Money/Image Clip Art/nickel 3-02 - Copy.png" id="1_1hpfd"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_2ebyy"]
+[ext_resource type="Texture2D" uid="uid://dugka16ha3ymk" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign NICKEL-02 - Copy.png" id="2_okhxq"]
+[ext_resource type="Texture2D" uid="uid://bhp55xhqa6xa" path="res://assets/Clipart/18 Money/Image Clip Art/nickel 3-01 - Copy.png" id="3_asgda"]
+[ext_resource type="Texture2D" uid="uid://d2nua2armas76" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign NICKEL-01 - Copy.png" id="4_0o32l"]
+
+[resource]
+resource_name = "nickel.tres"
+script = ExtResource("1_2ebyy")
+Word = "nickel"
+SignArt = ExtResource("4_0o32l")
+AltSignArt = ExtResource("2_okhxq")
+ImageArt = ExtResource("3_asgda")
+AltImageArt = ExtResource("1_1hpfd")
+autofill = false

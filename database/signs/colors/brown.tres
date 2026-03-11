@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://li00h5lah7jr"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_6vpes"]
+[ext_resource type="Texture2D" uid="uid://b6h0hhj54skbr" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign BROWN-02.png" id="2_ok2p1"]
+[ext_resource type="Texture2D" uid="uid://by4yskrn7c28s" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign BROWN-01..png" id="4_6c47l"]
+
+[resource]
+script = ExtResource("1_6vpes")
+Word = "brown"
+SignArt = ExtResource("4_6c47l")
+AltSignArt = ExtResource("2_ok2p1")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://clckfe0ph5fbl"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_56r5c"]
+[ext_resource type="Texture2D" uid="uid://bgnp15yqlxxjm" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign THREE mom-02 - Copy.png" id="2_swv5w"]
+[ext_resource type="Texture2D" uid="uid://psffyrr8q3b7" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign THREE mom-01 - Copy.png" id="4_s6j78"]
+
+[resource]
+script = ExtResource("1_56r5c")
+Word = "three"
+SignArt = ExtResource("4_s6j78")
+AltSignArt = ExtResource("2_swv5w")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

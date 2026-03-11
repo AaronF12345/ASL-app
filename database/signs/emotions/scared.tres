@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://biij7ahuude71"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_c6gm3"]
+[ext_resource type="Texture2D" uid="uid://bsjvaieej8g6" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign SCARED-02 - Copy.png" id="2_mvt31"]
+[ext_resource type="Texture2D" uid="uid://wnkgokcq5d0q" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign SCARED-01 - Copy.png" id="4_1hsif"]
+
+[resource]
+resource_name = "scared.tres"
+script = ExtResource("1_c6gm3")
+Word = "scared"
+SignArt = ExtResource("4_1hsif")
+AltSignArt = ExtResource("2_mvt31")
+autofill = false

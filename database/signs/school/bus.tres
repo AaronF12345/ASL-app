@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://berlv54want8p"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_lhd4m"]
+[ext_resource type="Texture2D" uid="uid://cn4bvyl1onu42" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign BUS-02 - Copy.png" id="2_uq2w2"]
+[ext_resource type="Texture2D" uid="uid://boxqi5rh81oqr" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign BUS-01 - Copy.png" id="4_f66kg"]
+
+[resource]
+resource_name = "bus.tres"
+script = ExtResource("1_lhd4m")
+Word = "bus"
+SignArt = ExtResource("4_f66kg")
+AltSignArt = ExtResource("2_uq2w2")
+autofill = false

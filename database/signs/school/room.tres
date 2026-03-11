@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://b38hj72hgjiag"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ehe1k"]
+[ext_resource type="Texture2D" uid="uid://gkp110vnfvlc" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign ROOM hands-02 - Copy.png" id="2_tooo4"]
+[ext_resource type="Texture2D" uid="uid://0uvwi68pxx1h" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign ROOM hands-01 - Copy.png" id="4_eja3g"]
+
+[resource]
+resource_name = "room.tres"
+script = ExtResource("1_ehe1k")
+Word = "room"
+SignArt = ExtResource("4_eja3g")
+AltSignArt = ExtResource("2_tooo4")
+autofill = false

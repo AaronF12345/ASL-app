@@ -7,7 +7,12 @@ script = ExtResource("2_sxewp")
 database = Dictionary[int, String]({
 0: "res://database/topics/basic.tres",
 1: "res://database/topics/colors.tres",
-2: "res://database/topics/manners.tres",
-3: "res://database/topics/numbers.tres"
+2: "res://database/topics/directions.tres",
+3: "res://database/topics/manners.tres",
+4: "res://database/topics/emotions.tres",
+5: "res://database/topics/numbers.tres",
+6: "res://database/topics/answers.tres",
+7: "res://database/topics/school.tres",
+8: "res://database/topics/money.tres"
 })
 metadata/_custom_type_script = "uid://wfx36o0wt665"

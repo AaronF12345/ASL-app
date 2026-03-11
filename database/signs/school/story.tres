@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://wwuyf27n0jlo"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_3a87g"]
+[ext_resource type="Texture2D" uid="uid://qm1udjxttt12" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign STORY-02 - Copy.png" id="2_wahfx"]
+[ext_resource type="Texture2D" uid="uid://c6mg7cjiwjjy0" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign STORY-01 - Copy.png" id="4_5n6ut"]
+
+[resource]
+resource_name = "story.tres"
+script = ExtResource("1_3a87g")
+Word = "story"
+SignArt = ExtResource("4_5n6ut")
+AltSignArt = ExtResource("2_wahfx")
+autofill = false

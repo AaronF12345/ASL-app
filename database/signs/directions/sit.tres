@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://cts88r4l2xy3x"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_683ln"]
+[ext_resource type="Texture2D" uid="uid://bpd566i73vgt7" path="res://assets/Clipart/3 Directions/Image Clipart/Sit-02 - Copy.png" id="1_aw3ob"]
+[ext_resource type="Texture2D" uid="uid://dfjcc6bj0slv" path="res://assets/Clipart/3 Directions/Sign Clipart/Sign SIT-02 - Copy.png" id="2_aw3ob"]
+[ext_resource type="Texture2D" uid="uid://bqivfy0u06fyl" path="res://assets/Clipart/3 Directions/Image Clipart/Sit-01 - Copy.png" id="3_7gags"]
+[ext_resource type="Texture2D" uid="uid://d2m8p6nyupoko" path="res://assets/Clipart/3 Directions/Sign Clipart/Sign SIT-01 - Copy.png" id="4_7gags"]
+
+[resource]
+resource_name = "sit.tres"
+script = ExtResource("1_683ln")
+Word = "sit"
+SignArt = ExtResource("4_7gags")
+AltSignArt = ExtResource("2_aw3ob")
+ImageArt = ExtResource("3_7gags")
+AltImageArt = ExtResource("1_aw3ob")
+autofill = false

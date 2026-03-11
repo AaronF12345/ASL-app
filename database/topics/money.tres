@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=15 format=3 uid="uid://dtwtxyydad3bl"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_87nkf"]
+[ext_resource type="Resource" uid="uid://dxwh2dqg6sex" path="res://database/signs/money/cent.tres" id="2_6kcqf"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_fj5io"]
+[ext_resource type="Resource" uid="uid://b86xe0apb46e1" path="res://database/signs/money/coin.tres" id="3_8yg2v"]
+[ext_resource type="Resource" uid="uid://t1ulkmjowabf" path="res://database/signs/money/cost.tres" id="4_gbjt5"]
+[ext_resource type="Resource" uid="uid://dt17qqxp0u387" path="res://database/signs/money/count.tres" id="5_216o1"]
+[ext_resource type="Resource" uid="uid://c2t61fl75t0ny" path="res://database/signs/money/dime.tres" id="6_flrdo"]
+[ext_resource type="Resource" uid="uid://b3v4hur401q4x" path="res://database/signs/money/dollar.tres" id="7_w7xmi"]
+[ext_resource type="Resource" uid="uid://4xw7o4i4sq2i" path="res://database/signs/money/money.tres" id="8_b28fq"]
+[ext_resource type="Resource" uid="uid://olewwrnpqvfw" path="res://database/signs/money/nickel.tres" id="9_hjhjj"]
+[ext_resource type="Resource" uid="uid://dtokrus2ikd3e" path="res://database/signs/money/pay.tres" id="10_mmydn"]
+[ext_resource type="Resource" uid="uid://cumax5ow5vjdy" path="res://database/signs/money/penny.tres" id="11_6q8bv"]
+[ext_resource type="Resource" uid="uid://thy7fn1kkb3" path="res://database/signs/money/quarter.tres" id="12_bvkqi"]
+[ext_resource type="Resource" uid="uid://cyjipa5t4e1i3" path="res://database/signs/money/total.tres" id="13_qqeoo"]
+
+[resource]
+script = ExtResource("2_fj5io")
+Name = "money"
+Signs = Dictionary[int, ExtResource("1_87nkf")]({
+0: ExtResource("2_6kcqf"),
+1: ExtResource("3_8yg2v"),
+2: ExtResource("4_gbjt5"),
+3: ExtResource("5_216o1"),
+4: ExtResource("6_flrdo"),
+5: ExtResource("7_w7xmi"),
+6: ExtResource("8_b28fq"),
+7: ExtResource("9_hjhjj"),
+8: ExtResource("10_mmydn"),
+9: ExtResource("11_6q8bv"),
+10: ExtResource("12_bvkqi"),
+11: ExtResource("13_qqeoo")
+})
+autofill = false
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

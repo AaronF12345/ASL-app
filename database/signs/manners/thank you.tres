@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://m1kih3djujt8"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ivhpp"]
+[ext_resource type="Texture2D" uid="uid://2boyylosgvvu" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/SIGN THANK YOU-02 - Copy.png" id="2_er2hq"]
+[ext_resource type="Texture2D" uid="uid://c5tlwskkvthhx" path="res://assets/Clipart/8 Holiday 2 Thanksgiving/Sign Clip Art/SIGN THANK YOU-01 - Copy.png" id="4_w0iie"]
+
+[resource]
+script = ExtResource("1_ivhpp")
+Word = "thank you"
+SignArt = ExtResource("4_w0iie")
+AltSignArt = ExtResource("2_er2hq")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

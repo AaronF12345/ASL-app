@@ -18,6 +18,7 @@ size_flags_vertical = 3
 script = ExtResource("1_bajiw")
 topics = "res://menus/Topics.tscn"
 settingsMenu = "res://menus/settings.tscn"
+progress = "res://menus/Progress.tscn"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -60,13 +61,13 @@ theme = ExtResource("1_7mewq")
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
 theme = ExtResource("1_7mewq")
-text = "Account"
+text = "progress"
 
 [node name="Button3" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
 theme = ExtResource("1_7mewq")
-text = "Learning"
+text = "learning"
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
 layout_mode = 2
@@ -77,13 +78,13 @@ theme = ExtResource("1_7mewq")
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
 theme = ExtResource("1_7mewq")
-text = "Settings"
+text = "settings"
 
 [node name="trans" parent="." instance=ExtResource("3_f0j1r")]
-visible = false
 layout_mode = 1
 offset_top = 648.0
 offset_bottom = 648.0
 
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer/Button2" to="." method="_on_button_2_pressed"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer/Button3" to="." method="_on_button_3_pressed"]
 [connection signal="pressed" from="VBoxContainer/HBoxContainer/VBoxContainer2/Button" to="." method="_on_button_pressed"]

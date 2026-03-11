@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bm3o62ypfosrq"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_0tb33"]
+[ext_resource type="Texture2D" uid="uid://dyacpiuhiawe6" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign RIGHT CORRECT-02 - Copy.png" id="2_ox0fm"]
+[ext_resource type="Texture2D" uid="uid://dk0hdud8bdcp7" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign RIGHT CORRECT-01 - Copy.png" id="4_ld0kj"]
+
+[resource]
+resource_name = "right correct.tres"
+script = ExtResource("1_0tb33")
+Word = "right correct"
+SignArt = ExtResource("4_ld0kj")
+AltSignArt = ExtResource("2_ox0fm")
+autofill = false

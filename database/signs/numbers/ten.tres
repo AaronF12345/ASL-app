@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://ivoqcfofn4ep"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_8iy4s"]
+[ext_resource type="Texture2D" uid="uid://dimwjmbbb5q20" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign TEN-02 - Copy.png" id="2_584ap"]
+[ext_resource type="Texture2D" uid="uid://d27tf58bgesvm" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign TEN-01 - Copy.png" id="4_0rd53"]
+
+[resource]
+script = ExtResource("1_8iy4s")
+Word = "ten"
+SignArt = ExtResource("4_0rd53")
+AltSignArt = ExtResource("2_584ap")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

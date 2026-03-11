@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dh5nlaaq6kpy6"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_kcqg6"]
+[ext_resource type="Texture2D" uid="uid://bwl0qo2ifngac" path="res://assets/Clipart/9 School Days/Sign Clip Art/SIGN CLEAN 2-02 - Copy.png" id="2_puv5x"]
+[ext_resource type="Texture2D" uid="uid://c6rcw8eywh2g" path="res://assets/Clipart/9 School Days/Sign Clip Art/SIGN CLEAN 2-01 - Copy.png" id="4_v51ac"]
+
+[resource]
+resource_name = "clean.tres"
+script = ExtResource("1_kcqg6")
+Word = "clean"
+SignArt = ExtResource("4_v51ac")
+AltSignArt = ExtResource("2_puv5x")
+autofill = false

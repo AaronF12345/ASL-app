@@ -12,6 +12,8 @@ var on : bool = false
 func _ready() -> void:
 	for i in Options.quiz_length/2:
 		create_question(Options.random_id())
+	for i in get_children():
+		move_child(i,randi_range(0,get_children().size()))
 
 func get_sign(id : int) -> AbstractSign:
 	return Options.topic.Signs[id]
@@ -43,3 +45,7 @@ func selected():
 		return
 	if !on:
 		on = true
+
+func _on_resized() -> void:
+	pass
+	#columns = round(size.x / 288)

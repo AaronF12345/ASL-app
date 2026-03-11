@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bnibvj1j8h10i"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_448rv"]
+[ext_resource type="Texture2D" uid="uid://dxuu4wwmkq0hd" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign QUIET-02 - Copy.png" id="2_1xhth"]
+[ext_resource type="Texture2D" uid="uid://c1842kbaxigx1" path="res://assets/Clipart/20 ABCs Set 2/Sign Clip Art/Sign QUIET-01 - Copy.png" id="4_2qnsf"]
+
+[resource]
+script = ExtResource("1_448rv")
+Word = "quiet"
+SignArt = ExtResource("4_2qnsf")
+AltSignArt = ExtResource("2_1xhth")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

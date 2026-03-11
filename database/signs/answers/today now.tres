@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://w1y5wjjrvon2"]
+
+[ext_resource type="Texture2D" uid="uid://c7b6it1dj22km" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign TODAY NOW-02 - Copy.png" id="1_3fyiv"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_p2s1s"]
+[ext_resource type="Texture2D" uid="uid://bnc02n6tcxgnn" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign TODAY NOW-01 - Copy.png" id="2_220fx"]
+
+[resource]
+resource_name = "today now.tres"
+script = ExtResource("1_p2s1s")
+Word = "today now"
+SignArt = ExtResource("2_220fx")
+AltSignArt = ExtResource("1_3fyiv")
+autofill = false

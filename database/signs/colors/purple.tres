@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://cdli4w47jnmo3"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_4knvn"]
+[ext_resource type="Texture2D" uid="uid://c8uswvg7rc5xk" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign PURPLE-02.png" id="2_7ywyg"]
+[ext_resource type="Texture2D" uid="uid://sqpof6v8fqbc" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign PURPLE-01.png" id="4_ym1fc"]
+
+[resource]
+script = ExtResource("1_4knvn")
+Word = "purple"
+SignArt = ExtResource("4_ym1fc")
+AltSignArt = ExtResource("2_7ywyg")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

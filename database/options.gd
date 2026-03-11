@@ -6,6 +6,11 @@ var topic : Topic
 @export var quiz_length : int = 5
 @export var current_question : int = 0
 @export var wrong : int = 0
+enum Types{
+	quiz,
+	tiles,
+}
+@export var type : Types
 
 func random_id() -> int:
 	return rand.randi_range(0,topic.Signs.size()-1)

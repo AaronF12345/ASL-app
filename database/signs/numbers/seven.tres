@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://d0tdkonvamr55"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_abgrj"]
+[ext_resource type="Texture2D" uid="uid://b7xvce50jm56t" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign SEVEN-02 - Copy.png" id="2_i73su"]
+[ext_resource type="Texture2D" uid="uid://cn4xvc304k568" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign SEVEN-01 - Copy.png" id="4_ms44p"]
+
+[resource]
+script = ExtResource("1_abgrj")
+Word = "seven"
+SignArt = ExtResource("4_ms44p")
+AltSignArt = ExtResource("2_i73su")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

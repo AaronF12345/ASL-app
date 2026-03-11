@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://w6n28gbjnk03"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_0l1sq"]
+[ext_resource type="Texture2D" uid="uid://c26s7bv5g1xbf" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign SLEEP-02 - Copy.png" id="2_yql4c"]
+[ext_resource type="Texture2D" uid="uid://cm0s152xn6fjj" path="res://assets/Clipart/1 Basic Signs/Sign Clipart/Sign SLEEP-01 - Copy.png" id="4_yat1u"]
+
+[resource]
+script = ExtResource("1_0l1sq")
+Word = "sleep"
+SignArt = ExtResource("4_yat1u")
+AltSignArt = ExtResource("2_yql4c")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

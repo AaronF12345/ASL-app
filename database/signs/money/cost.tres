@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://t1ulkmjowabf"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_eh1it"]
+[ext_resource type="Texture2D" uid="uid://ciamrptc8054b" path="res://assets/Clipart/18 Money/Image Clip Art/cost 2-02 - Copy.png" id="1_p1b3t"]
+[ext_resource type="Texture2D" uid="uid://bf2vhkfgr8p07" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign COST-02 - Copy.png" id="2_bsrev"]
+[ext_resource type="Texture2D" uid="uid://ue1pvuj32tfd" path="res://assets/Clipart/18 Money/Image Clip Art/cost 2-01 - Copy.png" id="3_wmisv"]
+[ext_resource type="Texture2D" uid="uid://bc2d1gl3dg65f" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign COST-01 - Copy.png" id="4_qlw4a"]
+
+[resource]
+resource_name = "cost.tres"
+script = ExtResource("1_eh1it")
+Word = "cost"
+SignArt = ExtResource("4_qlw4a")
+AltSignArt = ExtResource("2_bsrev")
+ImageArt = ExtResource("3_wmisv")
+AltImageArt = ExtResource("1_p1b3t")
+autofill = false

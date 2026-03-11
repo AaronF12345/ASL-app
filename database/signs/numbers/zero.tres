@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://dmnv63ha5kqx5"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_guyrq"]
+[ext_resource type="Texture2D" uid="uid://dankges42xng2" path="res://assets/Clipart/17 Number/Image Clip Art/zero-02 - Copy.png" id="1_tt8fy"]
+[ext_resource type="Texture2D" uid="uid://qdt6hc4h4olm" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign ZERO-02 - Copy.png" id="2_f5ldp"]
+[ext_resource type="Texture2D" uid="uid://cqxnm7g0ye424" path="res://assets/Clipart/17 Number/Image Clip Art/zero-01 - Copy.png" id="3_5i4be"]
+[ext_resource type="Texture2D" uid="uid://dugdc4q0adx1g" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign ZERO-01 - Copy.png" id="4_6g22d"]
+
+[resource]
+script = ExtResource("1_guyrq")
+Word = "zero"
+SignArt = ExtResource("4_6g22d")
+AltSignArt = ExtResource("2_f5ldp")
+ImageArt = ExtResource("3_5i4be")
+AltImageArt = ExtResource("1_tt8fy")
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

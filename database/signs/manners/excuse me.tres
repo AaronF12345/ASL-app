@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dum3o2w45m8nw"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_s4pae"]
+[ext_resource type="Texture2D" uid="uid://dkipcpafcvv2w" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign EXCUSE ME-02 - Copy.png" id="2_0ks2m"]
+[ext_resource type="Texture2D" uid="uid://ny8ococxub0x" path="res://assets/Clipart/14 Manner/Sign Clip Art/Sign EXCUSE ME-01 - Copy.png" id="4_jdirf"]
+
+[resource]
+script = ExtResource("1_s4pae")
+Word = "excuse me"
+SignArt = ExtResource("4_jdirf")
+AltSignArt = ExtResource("2_0ks2m")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

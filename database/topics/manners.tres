@@ -1,10 +1,36 @@
-[gd_resource type="Resource" script_class="Topic" load_steps=3 format=3 uid="uid://bfwxi6pr4vbin"]
+[gd_resource type="Resource" script_class="Topic" load_steps=15 format=3 uid="uid://bfwxi6pr4vbin"]
 
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ts4pq"]
+[ext_resource type="Resource" uid="uid://dum3o2w45m8nw" path="res://database/signs/manners/excuse me.tres" id="2_hicnf"]
 [ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_iafnu"]
+[ext_resource type="Resource" uid="uid://c3trqw2unmfwy" path="res://database/signs/manners/listen.tres" id="3_5n7jm"]
+[ext_resource type="Resource" uid="uid://dodlgumwgru22" path="res://database/signs/manners/nice.tres" id="4_o8ojr"]
+[ext_resource type="Resource" uid="uid://ch6xi18h6c63c" path="res://database/signs/manners/patient.tres" id="5_nd44k"]
+[ext_resource type="Resource" uid="uid://bfwoaquyjc08c" path="res://database/signs/manners/pay attention.tres" id="6_a0yn3"]
+[ext_resource type="Resource" uid="uid://bwlxhex566yax" path="res://database/signs/manners/please.tres" id="7_rub2w"]
+[ext_resource type="Resource" uid="uid://bnibvj1j8h10i" path="res://database/signs/manners/quiet.tres" id="8_rx0nf"]
+[ext_resource type="Resource" uid="uid://bkkh6ghspnkfm" path="res://database/signs/manners/respect.tres" id="9_yrqgy"]
+[ext_resource type="Resource" uid="uid://djyc5k05n6fbc" path="res://database/signs/manners/share.tres" id="10_5l2lq"]
+[ext_resource type="Resource" uid="uid://b7arq0qchufpc" path="res://database/signs/manners/sorry.tres" id="11_jm86t"]
+[ext_resource type="Resource" uid="uid://m1kih3djujt8" path="res://database/signs/manners/thank you.tres" id="12_euwuf"]
+[ext_resource type="Resource" uid="uid://bdpuh7b2yfwki" path="res://database/signs/manners/welcome.tres" id="13_7dx1v"]
 
 [resource]
 script = ExtResource("2_iafnu")
-Name = "Manners"
-Signs = Dictionary[int, ExtResource("1_ts4pq")]({})
+Name = "manners"
+Signs = Dictionary[int, ExtResource("1_ts4pq")]({
+0: ExtResource("2_hicnf"),
+1: ExtResource("3_5n7jm"),
+2: ExtResource("4_o8ojr"),
+3: ExtResource("5_nd44k"),
+4: ExtResource("6_a0yn3"),
+5: ExtResource("7_rub2w"),
+6: ExtResource("8_rx0nf"),
+7: ExtResource("9_yrqgy"),
+8: ExtResource("10_5l2lq"),
+9: ExtResource("11_jm86t"),
+10: ExtResource("12_euwuf"),
+11: ExtResource("13_7dx1v")
+})
+autofill = false
 metadata/_custom_type_script = "uid://yrui3f6v7t3j"

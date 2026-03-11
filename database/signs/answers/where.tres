@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://c5feonsuwc3f3"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_rve07"]
+[ext_resource type="Texture2D" uid="uid://dmqc0bt2l5ccg" path="res://assets/Clipart/4 Answers/Sign Clip Art/SIGN WHERE-02 - Copy.png" id="2_i16sd"]
+[ext_resource type="Texture2D" uid="uid://buwtl16qydfcn" path="res://assets/Clipart/4 Answers/Sign Clip Art/SIGN WHERE-01 - Copy.png" id="4_58fpc"]
+
+[resource]
+resource_name = "where.tres"
+script = ExtResource("1_rve07")
+Word = "where"
+SignArt = ExtResource("4_58fpc")
+AltSignArt = ExtResource("2_i16sd")
+autofill = false

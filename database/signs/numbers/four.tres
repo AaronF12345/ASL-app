@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://14smcivrraok"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_efobu"]
+[ext_resource type="Texture2D" uid="uid://c00wn8cjjfsh6" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign FOUR-02 - Copy.png" id="2_l8c5m"]
+[ext_resource type="Texture2D" uid="uid://q5060s85qatf" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign FOUR-01 - Copy.png" id="4_w85r7"]
+
+[resource]
+script = ExtResource("1_efobu")
+Word = "four"
+SignArt = ExtResource("4_w85r7")
+AltSignArt = ExtResource("2_l8c5m")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

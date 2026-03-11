@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://cj8prpwngb2kn"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_d6gj3"]
+[ext_resource type="Texture2D" uid="uid://ca3bmwhl183ul" path="res://assets/Clipart/9 School Days/Sign Clip Art/SIGN TEACHER-02 - Copy.png" id="2_47cx5"]
+[ext_resource type="Texture2D" uid="uid://dk8iegnvv8da2" path="res://assets/Clipart/9 School Days/Sign Clip Art/SIGN TEACHER-01 - Copy.png" id="4_2mmok"]
+
+[resource]
+resource_name = "teacher.tres"
+script = ExtResource("1_d6gj3")
+Word = "teacher"
+SignArt = ExtResource("4_2mmok")
+AltSignArt = ExtResource("2_47cx5")
+autofill = false

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://c8sgfy1oa8y0f"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_6euqw"]
+[ext_resource type="Texture2D" uid="uid://cd54hy0b5sywq" path="res://assets/Clipart/4 Answers/Image Clip Art/good job-02 - Copy.png" id="1_8bwhl"]
+[ext_resource type="Texture2D" uid="uid://co6co3c22ptvv" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign GOOD JOB-02 - Copy.png" id="2_p0cyn"]
+[ext_resource type="Texture2D" uid="uid://bbhpx1w3ahgqx" path="res://assets/Clipart/4 Answers/Image Clip Art/good job-01 - Copy.png" id="3_q852o"]
+[ext_resource type="Texture2D" uid="uid://gpjwwr8ala1o" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign GOOD JOB-01 - Copy.png" id="4_x56lw"]
+
+[resource]
+resource_name = "good job.tres"
+script = ExtResource("1_6euqw")
+Word = "good job"
+SignArt = ExtResource("4_x56lw")
+AltSignArt = ExtResource("2_p0cyn")
+ImageArt = ExtResource("3_q852o")
+AltImageArt = ExtResource("1_8bwhl")
+autofill = false

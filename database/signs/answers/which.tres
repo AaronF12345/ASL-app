@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://birnnuopvav60"]
+
+[ext_resource type="Texture2D" uid="uid://cyfkeq2v8qyrx" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign WHICH-02 - Copy.png" id="1_bbovb"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_dlc63"]
+[ext_resource type="Texture2D" uid="uid://cef6k17qqosti" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign WHICH-01 - Copy.png" id="2_7nb3r"]
+
+[resource]
+resource_name = "which.tres"
+script = ExtResource("1_dlc63")
+Word = "which"
+SignArt = ExtResource("2_7nb3r")
+AltSignArt = ExtResource("1_bbovb")
+autofill = false

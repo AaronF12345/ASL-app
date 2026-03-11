@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://clwcw0x80kr4s"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_drogj"]
+[ext_resource type="Texture2D" uid="uid://dekryvxbtv803" path="res://assets/Clipart/7 Holiday 1 Easter/Sign Clip Art/Sign COLOR easter-02 - Copy.png" id="2_p5ol3"]
+[ext_resource type="Texture2D" uid="uid://b5020pku2wugf" path="res://assets/Clipart/19 Colors/Sign Clip Art/Sign COLOR-01.png" id="4_vf3xa"]
+
+[resource]
+script = ExtResource("1_drogj")
+Word = "color"
+SignArt = ExtResource("4_vf3xa")
+AltSignArt = ExtResource("2_p5ol3")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

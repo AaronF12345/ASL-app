@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dodlgumwgru22"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_3o2kd"]
+[ext_resource type="Texture2D" uid="uid://kc664oxxe7j6" path="res://assets/Clipart/14 Manner/Sign Clip Art/SIGN NICE-02 - Copy.png" id="2_mspte"]
+[ext_resource type="Texture2D" uid="uid://d1acaoqdxhkwo" path="res://assets/Clipart/14 Manner/Sign Clip Art/SIGN NICE-01 - Copy.png" id="4_abnp3"]
+
+[resource]
+script = ExtResource("1_3o2kd")
+Word = "nice"
+SignArt = ExtResource("4_abnp3")
+AltSignArt = ExtResource("2_mspte")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://dt17qqxp0u387"]
+
+[ext_resource type="Texture2D" uid="uid://ct0idngehue75" path="res://assets/Clipart/18 Money/Image Clip Art/count-02 - Copy.png" id="1_3vhw7"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_31c84"]
+[ext_resource type="Texture2D" uid="uid://ugywh2qpwf36" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign COUNT-02 - Copy.png" id="2_e8m81"]
+[ext_resource type="Texture2D" uid="uid://2v637v6py3h6" path="res://assets/Clipart/18 Money/Image Clip Art/count-01 - Copy.png" id="3_kmp7b"]
+[ext_resource type="Texture2D" uid="uid://cp8c4w3rdciqs" path="res://assets/Clipart/18 Money/Sign Clip Art/Sign COUNT-01 - Copy.png" id="4_tgl5w"]
+
+[resource]
+resource_name = "count.tres"
+script = ExtResource("1_31c84")
+Word = "count"
+SignArt = ExtResource("4_tgl5w")
+AltSignArt = ExtResource("2_e8m81")
+ImageArt = ExtResource("3_kmp7b")
+AltImageArt = ExtResource("1_3vhw7")
+autofill = false

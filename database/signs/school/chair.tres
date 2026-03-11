@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://befr22pvev4s"]
+
+[ext_resource type="Texture2D" uid="uid://bj4gak3kefty6" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign CHAIR-02 - Copy.png" id="1_k1xip"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ud2o2"]
+[ext_resource type="Texture2D" uid="uid://r1im8m33qs78" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign CHAIR-01 - Copy.png" id="2_4wfxj"]
+
+[resource]
+resource_name = "chair.tres"
+script = ExtResource("1_ud2o2")
+Word = "chair"
+SignArt = ExtResource("2_4wfxj")
+AltSignArt = ExtResource("1_k1xip")
+autofill = false

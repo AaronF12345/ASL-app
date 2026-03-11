@@ -4,6 +4,9 @@ extends Control
 @export var quiz : String
 @onready var trans: ColorRect = $trans
 
+func _ready() -> void:
+	Options.quiz_length = $VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer/SpinBox.value
+
 func _on_button_pressed() -> void:
 	trans.switch()
 	await trans.finished

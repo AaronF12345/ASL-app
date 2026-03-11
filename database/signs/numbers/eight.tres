@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://mi1ud6re7wsn"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_w30hm"]
+[ext_resource type="Texture2D" uid="uid://bilb0wcu8opo6" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign EIGHT-02 - Copy.png" id="2_vlphm"]
+[ext_resource type="Texture2D" uid="uid://bq118jr8euv4b" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign EIGHT-01 - Copy.png" id="4_n4kxi"]
+
+[resource]
+script = ExtResource("1_w30hm")
+Word = "eight"
+SignArt = ExtResource("4_n4kxi")
+AltSignArt = ExtResource("2_vlphm")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

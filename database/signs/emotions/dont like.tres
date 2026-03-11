@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bte51feghbvr5"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_6ujbc"]
+[ext_resource type="Texture2D" uid="uid://cbexgtdpkxguy" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign DONT LIKE-02 - Copy.png" id="2_q56or"]
+[ext_resource type="Texture2D" uid="uid://b5611qjcl0vh" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign DONT LIKE-01 - Copy.png" id="4_6vtga"]
+
+[resource]
+resource_name = "dont like.tres"
+script = ExtResource("1_6ujbc")
+Word = "dont like"
+SignArt = ExtResource("4_6vtga")
+AltSignArt = ExtResource("2_q56or")
+autofill = false

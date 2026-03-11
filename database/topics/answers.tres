@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=15 format=3 uid="uid://cy8hla30tv8m5"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_ann6s"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_fwovn"]
+[ext_resource type="Resource" uid="uid://brubocljl3sp5" path="res://database/signs/answers/want.tres" id="2_kqq2y"]
+[ext_resource type="Resource" uid="uid://c5feonsuwc3f3" path="res://database/signs/answers/where.tres" id="3_xpon0"]
+[ext_resource type="Resource" uid="uid://dii82bw4o8bwc" path="res://database/signs/answers/answer.tres" id="4_2k21o"]
+[ext_resource type="Resource" uid="uid://bveel7lewxd6s" path="res://database/signs/answers/dont understand.tres" id="5_m4bil"]
+[ext_resource type="Resource" uid="uid://75irt03b0jhp" path="res://database/signs/answers/dont want.tres" id="6_6j3er"]
+[ext_resource type="Resource" uid="uid://c8sgfy1oa8y0f" path="res://database/signs/answers/good job.tres" id="7_ok52y"]
+[ext_resource type="Resource" uid="uid://dtjy5mt0wjv7e" path="res://database/signs/answers/later.tres" id="8_s1unr"]
+[ext_resource type="Resource" uid="uid://kd78wjfi2lk6" path="res://database/signs/answers/no .tres" id="9_4d0b1"]
+[ext_resource type="Resource" uid="uid://bm3o62ypfosrq" path="res://database/signs/answers/right correct.tres" id="10_i4kgs"]
+[ext_resource type="Resource" uid="uid://w1y5wjjrvon2" path="res://database/signs/answers/today now.tres" id="11_yfdwt"]
+[ext_resource type="Resource" uid="uid://birnnuopvav60" path="res://database/signs/answers/which.tres" id="12_gs1nd"]
+[ext_resource type="Resource" uid="uid://ywfny4e2lpsu" path="res://database/signs/answers/yes .tres" id="13_7pmgw"]
+
+[resource]
+script = ExtResource("2_fwovn")
+Name = "answers"
+Signs = Dictionary[int, ExtResource("1_ann6s")]({
+0: ExtResource("2_kqq2y"),
+1: ExtResource("3_xpon0"),
+2: ExtResource("4_2k21o"),
+3: ExtResource("5_m4bil"),
+4: ExtResource("6_6j3er"),
+5: ExtResource("7_ok52y"),
+6: ExtResource("8_s1unr"),
+7: ExtResource("9_4d0b1"),
+8: ExtResource("10_i4kgs"),
+9: ExtResource("11_yfdwt"),
+10: ExtResource("12_gs1nd"),
+11: ExtResource("13_7pmgw")
+})
+autofill = false
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://5hgbff4apdvw"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_n64h4"]
+[ext_resource type="Texture2D" uid="uid://bl11wfvqkgiyt" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign NUMBER circle-02 - Copy.png" id="2_vlo3c"]
+[ext_resource type="Texture2D" uid="uid://dqtximvk8m2uw" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign NUMBER circle-01 - Copy.png" id="4_bkrdu"]
+
+[resource]
+script = ExtResource("1_n64h4")
+Word = "number"
+SignArt = ExtResource("4_bkrdu")
+AltSignArt = ExtResource("2_vlo3c")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

@@ -1,0 +1,147 @@
+[gd_scene load_steps=5 format=3 uid="uid://1jgyr8hxhj0a"]
+
+[ext_resource type="Script" uid="uid://ch24kcwroxbk" path="res://menus/progress.gd" id="1_e0sj3"]
+[ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="2_oggbt"]
+[ext_resource type="PackedScene" uid="uid://c7iqk576shc0i" path="res://trans.tscn" id="3_psp6r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_s5hj4"]
+bg_color = Color(0.490196, 0.682353, 0.172549, 1)
+corner_radius_top_left = 22
+corner_radius_top_right = 22
+corner_radius_bottom_right = 22
+corner_radius_bottom_left = 22
+
+[node name="progress" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_e0sj3")
+main = "res://menus/main menu.tscn"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_oggbt")
+
+[node name="Label" type="Label" parent="VBoxContainer/Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("2_oggbt")
+text = "Progress"
+vertical_alignment = 1
+uppercase = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+size_flags_stretch_ratio = 7.0
+horizontal_scroll_mode = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme = ExtResource("2_oggbt")
+
+[node name="quizzes" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_oggbt")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/quizzes"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/quizzes/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+text = "quizzes"
+
+[node name="Label2" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/quizzes/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_s5hj4")
+
+[node name="quiz correct" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_oggbt")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/quiz correct"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/quiz correct/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+text = "correct"
+
+[node name="Label2" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/quiz correct/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_s5hj4")
+
+[node name="quiz incorrect" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_oggbt")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/quiz incorrect"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/quiz incorrect/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+text = "incorrect"
+
+[node name="Label2" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/quiz incorrect/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_styles/normal = SubResource("StyleBoxFlat_s5hj4")
+
+[node name="tiles" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_oggbt")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/tiles"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/tiles/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+text = "tiles"
+
+[node name="Label2" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/tiles/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_oggbt")
+theme_override_styles/normal = SubResource("StyleBoxFlat_s5hj4")
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_oggbt")
+text = "Back"
+
+[node name="trans" parent="." instance=ExtResource("3_psp6r")]
+layout_mode = 1
+offset_top = 648.0
+offset_bottom = 648.0
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

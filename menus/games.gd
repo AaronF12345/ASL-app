@@ -16,6 +16,7 @@ func play_trans():
 func _on_quiz_pressed() -> void:
 	play_trans()
 	await trans.finished
+	Options.type = Options.Types.quiz
 	Options.current_question = 0
 	Options.wrong = 0
 	get_tree().change_scene_to_file(quiz)
@@ -24,5 +25,6 @@ func _on_quiz_pressed() -> void:
 func _on_button_pressed() -> void:
 	play_trans()
 	await trans.finished
+	Options.type = Options.Types.tiles
 	Options.current_question = 0
 	get_tree().change_scene_to_file(tiles)
