@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dsb7r2ul84p60"]
+
+[ext_resource type="Texture2D" uid="uid://uugswvubu16h" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign BIRD side2-02 - Copy.png" id="1_afe11"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_rdkxv"]
+[ext_resource type="Texture2D" uid="uid://ccub0812hasi8" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign BIRD side2-01 - Copy.png" id="2_08xcw"]
+
+[resource]
+resource_name = "bird.tres"
+script = ExtResource("1_rdkxv")
+Word = "bird"
+SignArt = ExtResource("2_08xcw")
+AltSignArt = ExtResource("1_afe11")
+autofill = false

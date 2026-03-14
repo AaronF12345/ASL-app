@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dpdhitha7qtmc"]
+
+[ext_resource type="Texture2D" uid="uid://b5xwhxts42noo" path="res://assets/Clipart/10 Animals/Sign Clip Art/SIGN DEER-02 - Copy.png" id="1_36o8t"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_onila"]
+[ext_resource type="Texture2D" uid="uid://dfdbhhish4y8c" path="res://assets/Clipart/10 Animals/Sign Clip Art/SIGN DEER-01 - Copy.png" id="2_pyi3s"]
+
+[resource]
+resource_name = "deer.tres"
+script = ExtResource("1_onila")
+Word = "deer"
+SignArt = ExtResource("2_pyi3s")
+AltSignArt = ExtResource("1_36o8t")
+autofill = false

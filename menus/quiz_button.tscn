@@ -5,6 +5,7 @@
 
 [node name="quiz_button" type="Button"]
 custom_minimum_size = Vector2(0, 275)
+mouse_filter = 1
 theme = ExtResource("1_gkpd4")
 text = "answer"
 script = ExtResource("2_gkpd4")

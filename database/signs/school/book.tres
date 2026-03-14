@@ -1,8 +1,7 @@
-[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://mxfscr0b73r0"]
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=5 format=3 uid="uid://mxfscr0b73r0"]
 
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_8hc1s"]
 [ext_resource type="Texture2D" uid="uid://yy78rbuxbo6n" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign BOOK-02 - Copy.png" id="1_k2yb7"]
-[ext_resource type="Texture2D" uid="uid://q6vilq70j85c" path="res://assets/Clipart/2 Shapes Set 1/Image Clipart/Rectangle Book-Plain.png" id="1_ui784"]
 [ext_resource type="Texture2D" uid="uid://bi0lnfr8m2ec4" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign BOOK-01 - Copy.png" id="2_jh33a"]
 [ext_resource type="Texture2D" uid="uid://fsukk2qdyov" path="res://assets/Clipart/0 Landing Page ASL Clip Art/ASL Clip Art Logo/asl story books.png" id="3_a534c"]
 
@@ -13,5 +12,5 @@ Word = "book"
 SignArt = ExtResource("2_jh33a")
 AltSignArt = ExtResource("1_k2yb7")
 ImageArt = ExtResource("3_a534c")
-AltImageArt = ExtResource("1_ui784")
+AltImageArt = ExtResource("3_a534c")
 autofill = false

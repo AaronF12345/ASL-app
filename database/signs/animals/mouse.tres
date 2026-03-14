@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://qe21v31a70a8"]
+
+[ext_resource type="Texture2D" uid="uid://d26cyr54o3qud" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign MOUSE-02 - Copy.png" id="1_c3kj8"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_hpebc"]
+[ext_resource type="Texture2D" uid="uid://m62rwc4a61xs" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign MOUSE-01 - Copy.png" id="2_60tbv"]
+
+[resource]
+resource_name = "mouse.tres"
+script = ExtResource("1_hpebc")
+Word = "mouse"
+SignArt = ExtResource("2_60tbv")
+AltSignArt = ExtResource("1_c3kj8")
+autofill = false

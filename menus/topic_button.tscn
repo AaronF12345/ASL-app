@@ -5,6 +5,7 @@
 
 [node name="topic_button" type="Button"]
 custom_minimum_size = Vector2(0, 275)
+mouse_filter = 1
 theme = ExtResource("1_b7t3j")
 text = "topic"
 script = ExtResource("2_8se6t")

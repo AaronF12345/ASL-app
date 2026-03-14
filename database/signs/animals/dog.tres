@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dy7g5d3hww02i"]
+
+[ext_resource type="Texture2D" uid="uid://dppwy40f6sc3m" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign DOG-02 - Copy.png" id="1_byp7q"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_yl3hg"]
+[ext_resource type="Texture2D" uid="uid://copu4qh1urvwh" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign DOG-01 - Copy.png" id="2_782w7"]
+
+[resource]
+resource_name = "dog.tres"
+script = ExtResource("1_yl3hg")
+Word = "dog"
+SignArt = ExtResource("2_782w7")
+AltSignArt = ExtResource("1_byp7q")
+autofill = false

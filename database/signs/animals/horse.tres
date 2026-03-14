@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://xo37fmuixtc0"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_n2itd"]
+[ext_resource type="Texture2D" uid="uid://bte1y7sbglaib" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign HORSE-02 - Copy.png" id="1_s2wol"]
+[ext_resource type="Texture2D" uid="uid://dc2n7kqfnt11a" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign HORSE-01 - Copy.png" id="2_bcmv4"]
+
+[resource]
+resource_name = "horse.tres"
+script = ExtResource("1_n2itd")
+Word = "horse"
+SignArt = ExtResource("2_bcmv4")
+AltSignArt = ExtResource("1_s2wol")
+autofill = false

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bmft6jbgvh4su"]
+
+[ext_resource type="Texture2D" uid="uid://3n321hn46gen" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign CAT Christi-02 - Copy.png" id="1_6yn3j"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_586kf"]
+[ext_resource type="Texture2D" uid="uid://c3ceg1ax4tu8x" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign CAT Christi-01 - Copy.png" id="2_vcsvs"]
+
+[resource]
+resource_name = "cat c.tres"
+script = ExtResource("1_586kf")
+Word = "cat"
+SignArt = ExtResource("2_vcsvs")
+AltSignArt = ExtResource("1_6yn3j")
+autofill = false

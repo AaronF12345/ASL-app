@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dwhjgs24xqu6h"]
+
+[ext_resource type="Texture2D" uid="uid://c0ebem0a6ghdg" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign DUCK-02 - Copy.png" id="1_akpji"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_inyu3"]
+[ext_resource type="Texture2D" uid="uid://c3jor5wlaacb3" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign DUCK-01 - Copy.png" id="2_xtlqg"]
+
+[resource]
+resource_name = "duck.tres"
+script = ExtResource("1_inyu3")
+Word = "duck"
+SignArt = ExtResource("2_xtlqg")
+AltSignArt = ExtResource("1_akpji")
+autofill = false

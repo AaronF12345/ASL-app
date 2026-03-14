@@ -1,0 +1,36 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=15 format=3 uid="uid://cyu2t65j8qsl2"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_aj833"]
+[ext_resource type="Resource" uid="uid://ck2opwef1d567" path="res://database/signs/Weather/clouds.tres" id="2_nu74l"]
+[ext_resource type="Resource" uid="uid://lv7ipj1oqkvf" path="res://database/signs/Weather/cold.tres" id="3_7ylxs"]
+[ext_resource type="Resource" uid="uid://bbrtmeh7s5i4i" path="res://database/signs/Weather/forecast.tres" id="4_revn2"]
+[ext_resource type="Resource" uid="uid://bracpgnl4sapp" path="res://database/signs/Weather/hot.tres" id="5_h854n"]
+[ext_resource type="Resource" uid="uid://bp3hwq8w6daol" path="res://database/signs/Weather/ice.tres" id="6_54yox"]
+[ext_resource type="Resource" uid="uid://c65einrola6ia" path="res://database/signs/Weather/rain.tres" id="7_04tam"]
+[ext_resource type="Resource" uid="uid://b2h5nktj3hapo" path="res://database/signs/Weather/snow.tres" id="8_fjulm"]
+[ext_resource type="Resource" uid="uid://ro70ss65ig4j" path="res://database/signs/Weather/storm.tres" id="9_cdwhq"]
+[ext_resource type="Resource" uid="uid://bnxlveswg1yl5" path="res://database/signs/Weather/sun.tres" id="10_qdbme"]
+[ext_resource type="Resource" uid="uid://dp1hl0i60kqfi" path="res://database/signs/Weather/temperature.tres" id="11_43xqf"]
+[ext_resource type="Resource" uid="uid://dmbaat47hihf7" path="res://database/signs/Weather/weather.tres" id="12_ekvhy"]
+[ext_resource type="Resource" uid="uid://y4tk7abu2udp" path="res://database/signs/Weather/wind.tres" id="13_fop1n"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="25_ktel4"]
+
+[resource]
+script = ExtResource("25_ktel4")
+Name = "weather"
+Signs = Dictionary[int, ExtResource("1_aj833")]({
+0: ExtResource("2_nu74l"),
+1: ExtResource("3_7ylxs"),
+2: ExtResource("4_revn2"),
+3: ExtResource("5_h854n"),
+4: ExtResource("6_54yox"),
+5: ExtResource("7_04tam"),
+6: ExtResource("8_fjulm"),
+7: ExtResource("9_cdwhq"),
+8: ExtResource("10_qdbme"),
+9: ExtResource("11_43xqf"),
+10: ExtResource("12_ekvhy"),
+11: ExtResource("13_fop1n")
+})
+autofill = false
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

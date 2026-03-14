@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dmbaat47hihf7"]
+
+[ext_resource type="Texture2D" uid="uid://cvuwfj8gws2dy" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign WEATHER-02 - Copy.png" id="1_lsqex"]
+[ext_resource type="Texture2D" uid="uid://emftqw5r6w2w" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign WEATHER-01 - Copy.png" id="2_ovm62"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="3_s2vs0"]
+
+[resource]
+script = ExtResource("3_s2vs0")
+Word = "weather"
+SignArt = ExtResource("2_ovm62")
+AltSignArt = ExtResource("1_lsqex")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

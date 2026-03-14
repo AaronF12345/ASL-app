@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://lv7ipj1oqkvf"]
+
+[ext_resource type="Texture2D" uid="uid://bpanep785kgvg" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign COLD jacket-02 - Copy.png" id="1_vh232"]
+[ext_resource type="Texture2D" uid="uid://djwka5lmpn84q" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign COLD jacket-01 - Copy.png" id="2_yxpu5"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="3_jelbg"]
+
+[resource]
+script = ExtResource("3_jelbg")
+Word = "cold"
+SignArt = ExtResource("2_yxpu5")
+AltSignArt = ExtResource("1_vh232")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

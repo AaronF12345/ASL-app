@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://e81dx2iu2b3"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_k1wnq"]
+[ext_resource type="Texture2D" uid="uid://h6wlwbein08n" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign COW-02 - Copy.png" id="1_p76ca"]
+[ext_resource type="Texture2D" uid="uid://dulpo0pjjj2uo" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign COW-01 - Copy.png" id="2_xa4m5"]
+
+[resource]
+resource_name = "cow.tres"
+script = ExtResource("1_k1wnq")
+Word = "cow"
+SignArt = ExtResource("2_xa4m5")
+AltSignArt = ExtResource("1_p76ca")
+autofill = false

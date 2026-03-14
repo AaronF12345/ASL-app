@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="Topic" load_steps=17 format=3 uid="uid://d1mk0h8xbtxd7"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_45qwi"]
+[ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_owr5l"]
+[ext_resource type="Resource" uid="uid://dpdhitha7qtmc" path="res://database/signs/animals/deer.tres" id="2_p63vt"]
+[ext_resource type="Resource" uid="uid://dsb7r2ul84p60" path="res://database/signs/animals/bird.tres" id="3_fwdl3"]
+[ext_resource type="Resource" uid="uid://bmft6jbgvh4su" path="res://database/signs/animals/cat.tres" id="4_bkyyd"]
+[ext_resource type="Resource" uid="uid://e81dx2iu2b3" path="res://database/signs/animals/cow.tres" id="5_0rluc"]
+[ext_resource type="Resource" uid="uid://d06mrqq6sc71o" path="res://database/signs/animals/dinosaur.tres" id="6_qj61c"]
+[ext_resource type="Resource" uid="uid://dy7g5d3hww02i" path="res://database/signs/animals/dog.tres" id="7_vvu5b"]
+[ext_resource type="Resource" uid="uid://dwhjgs24xqu6h" path="res://database/signs/animals/duck.tres" id="8_spdnl"]
+[ext_resource type="Resource" uid="uid://cfepio4ape1p6" path="res://database/signs/animals/fish.tres" id="9_706u0"]
+[ext_resource type="Resource" uid="uid://xo37fmuixtc0" path="res://database/signs/animals/horse.tres" id="10_k3edb"]
+[ext_resource type="Resource" uid="uid://qe21v31a70a8" path="res://database/signs/animals/mouse.tres" id="11_r2vwf"]
+[ext_resource type="Resource" uid="uid://s5umvvddfq1q" path="res://database/signs/animals/rabbit bunny.tres" id="12_jxoam"]
+[ext_resource type="Texture2D" uid="uid://biv2hp1u5l68t" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign SQUIRREL-02 - Copy.png" id="13_bkyyd"]
+[ext_resource type="Texture2D" uid="uid://bh0y7cu65riv1" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign SQUIRREL-01 - Copy.png" id="14_0rluc"]
+
+[sub_resource type="Resource" id="Resource_qj61c"]
+script = ExtResource("1_45qwi")
+Word = "squirrel"
+SignArt = ExtResource("14_0rluc")
+AltSignArt = ExtResource("13_bkyyd")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"
+
+[resource]
+script = ExtResource("2_owr5l")
+Name = "animals"
+Signs = Dictionary[int, ExtResource("1_45qwi")]({
+0: ExtResource("2_p63vt"),
+1: ExtResource("3_fwdl3"),
+2: ExtResource("4_bkyyd"),
+3: ExtResource("5_0rluc"),
+4: ExtResource("6_qj61c"),
+5: ExtResource("7_vvu5b"),
+6: ExtResource("8_spdnl"),
+7: ExtResource("9_706u0"),
+8: ExtResource("10_k3edb"),
+9: ExtResource("11_r2vwf"),
+10: ExtResource("12_jxoam"),
+11: SubResource("Resource_qj61c")
+})
+autofill = false
+metadata/_custom_type_script = "uid://yrui3f6v7t3j"

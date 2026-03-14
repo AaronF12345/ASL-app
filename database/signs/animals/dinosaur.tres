@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://d06mrqq6sc71o"]
+
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_cyb72"]
+[ext_resource type="Texture2D" uid="uid://g8sg5bmc4adq" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign DINOSAUR-02 - Copy.png" id="1_gocg6"]
+[ext_resource type="Texture2D" uid="uid://cckm5fgf53ebf" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign DINOSAUR-01 - Copy.png" id="2_f1iyw"]
+
+[resource]
+resource_name = "dinosaur.tres"
+script = ExtResource("1_cyb72")
+Word = "dinosaur"
+SignArt = ExtResource("2_f1iyw")
+AltSignArt = ExtResource("1_gocg6")
+autofill = false

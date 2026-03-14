@@ -48,6 +48,7 @@ uppercase = true
 layout_mode = 2
 size_flags_vertical = 3
 size_flags_stretch_ratio = 7.0
+scroll_deadzone = 100
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer"]
 layout_mode = 2
@@ -72,10 +73,13 @@ theme = ExtResource("2_ktjvb")
 [node name="Button2" type="Button" parent="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2"]
 custom_minimum_size = Vector2(0, 275)
 layout_mode = 2
+mouse_filter = 1
 theme = ExtResource("2_ktjvb")
 text = "back"
 
 [node name="trans" parent="." instance=ExtResource("5_jxgap")]
 layout_mode = 1
+offset_top = 648.0
+offset_bottom = 648.0
 
 [connection signal="pressed" from="VBoxContainer/ScrollContainer/HBoxContainer/VBoxContainer2/Button2" to="." method="_on_button_2_pressed"]

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://ck2opwef1d567"]
+
+[ext_resource type="Texture2D" uid="uid://cj240xgysb0jw" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign CLOUDS 2-02 - Copy.png" id="1_5u3f4"]
+[ext_resource type="Texture2D" uid="uid://dpo200gc6s03v" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign CLOUDS 2-01 - Copy.png" id="2_0v1h2"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="3_emiaw"]
+
+[resource]
+script = ExtResource("3_emiaw")
+Word = "clouds"
+SignArt = ExtResource("2_0v1h2")
+AltSignArt = ExtResource("1_5u3f4")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

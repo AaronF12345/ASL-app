@@ -13,6 +13,8 @@ database = Dictionary[int, String]({
 5: "res://database/topics/numbers.tres",
 6: "res://database/topics/answers.tres",
 7: "res://database/topics/school.tres",
-8: "res://database/topics/money.tres"
+8: "res://database/topics/money.tres",
+9: "res://database/topics/animals.tres",
+10: "res://database/topics/weather.tres"
 })
 metadata/_custom_type_script = "uid://wfx36o0wt665"

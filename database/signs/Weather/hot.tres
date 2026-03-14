@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://bracpgnl4sapp"]
+
+[ext_resource type="Texture2D" uid="uid://csniyurd1sgk" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign HOT-02 - Copy.png" id="1_v2st4"]
+[ext_resource type="Texture2D" uid="uid://culejhjst78mc" path="res://assets/Clipart/13 Weather/Sign Clip Art/Sign HOT-01 - Copy.png" id="2_dgdr3"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="3_nhsur"]
+
+[resource]
+script = ExtResource("3_nhsur")
+Word = "hot"
+SignArt = ExtResource("2_dgdr3")
+AltSignArt = ExtResource("1_v2st4")
+autofill = false
+metadata/_custom_type_script = "uid://b8juwbjtk1hfc"

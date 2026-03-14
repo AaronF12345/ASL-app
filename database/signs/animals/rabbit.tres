@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://cav6wjnywx4rj"]
+
+[ext_resource type="Texture2D" uid="uid://bpusk3ltbwvgg" path="res://assets/Clipart/10 Animals/Image Clip Art/Rabbit-02 - Copy.png" id="1_lw6wk"]
+[ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_nyfk4"]
+[ext_resource type="Texture2D" uid="uid://b33hve1abl3mn" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign RABBIT-01 - Copy.png" id="2_nxbpp"]
+[ext_resource type="Texture2D" uid="uid://cfnmauclkp7wf" path="res://assets/Clipart/10 Animals/Image Clip Art/Rabbit-01 - Copy.png" id="3_gxtv1"]
+[ext_resource type="Texture2D" uid="uid://dai3xtfsgwp4r" path="res://assets/Clipart/10 Animals/Sign Clip Art/Sign RABBIT BUNNY-01 - Copy.png" id="4_fr2u4"]
+
+[resource]
+resource_name = "rabbit.tres"
+script = ExtResource("1_nyfk4")
+Word = "rabbit"
+SignArt = ExtResource("4_fr2u4")
+AltSignArt = ExtResource("2_nxbpp")
+ImageArt = ExtResource("3_gxtv1")
+AltImageArt = ExtResource("1_lw6wk")
+autofill = false

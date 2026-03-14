@@ -55,10 +55,10 @@ func _on_resized() -> void:
 		fit_text_to_width(max_font_size)
 	if text.length() >4:
 		self.add_theme_font_size_override("font_size",130)
-	if text.length() >8:
+	if text.length() >5:
 		self.add_theme_font_size_override("font_size",90)
-	if text.length() >14:
-		self.add_theme_font_size_override("font_size",75)
+	if text.length() >8:
+		self.add_theme_font_size_override("font_size",70)
 	#if !is_instance_valid(rich_text_label):
 	#	return
 	#while(rich_text_label.get_content_width() > size.x):
