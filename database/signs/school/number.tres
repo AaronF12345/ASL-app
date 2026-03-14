@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://dux4beu73r27w"]
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://dux4beu73r27w"]
 
+[ext_resource type="Texture2D" uid="uid://bmtm8q0wtintj" path="res://assets/Clipart/17 Number/Image Clip Art/number-02 - Copy.png" id="1_h8wgd"]
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_nx74k"]
 [ext_resource type="Texture2D" uid="uid://bl11wfvqkgiyt" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign NUMBER circle-02 - Copy.png" id="2_7m1ew"]
+[ext_resource type="Texture2D" uid="uid://dyc8furi3tml5" path="res://assets/Clipart/17 Number/Image Clip Art/number-01 - Copy.png" id="3_7m1ew"]
 [ext_resource type="Texture2D" uid="uid://dqtximvk8m2uw" path="res://assets/Clipart/17 Number/Sign Clip Art/Sign NUMBER circle-01 - Copy.png" id="4_3b8cq"]
 
 [resource]
@@ -10,4 +12,6 @@ script = ExtResource("1_nx74k")
 Word = "number"
 SignArt = ExtResource("4_3b8cq")
 AltSignArt = ExtResource("2_7m1ew")
+ImageArt = ExtResource("3_7m1ew")
+AltImageArt = ExtResource("1_h8wgd")
 autofill = false

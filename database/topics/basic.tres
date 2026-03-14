@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://yrui3f6v7t3j" path="res://database/Topic.gd" id="2_e71gq"]
 [ext_resource type="Resource" uid="uid://bj4c3f72iwk2n" path="res://database/signs/basic/bed.tres" id="2_g4r58"]
 [ext_resource type="Resource" uid="uid://cvjvutf3rp2sw" path="res://database/signs/basic/bottle.tres" id="3_xxl5g"]
-[ext_resource type="Resource" uid="uid://bx862m5ocyi3o" path="res://database/signs/basic/dad_father.tres" id="4_swara"]
+[ext_resource type="Resource" uid="uid://bx862m5ocyi3o" path="res://database/signs/basic/father.tres" id="4_swara"]
 [ext_resource type="Resource" uid="uid://0soe7qwiijej" path="res://database/signs/basic/eat.tres" id="5_i2cug"]
 [ext_resource type="Resource" uid="uid://c4yywcunyecph" path="res://database/signs/basic/finish.tres" id="6_7eyii"]
 [ext_resource type="Resource" uid="uid://dovps2ho0o3t1" path="res://database/signs/basic/help.tres" id="7_lbmxu"]
@@ -23,7 +23,7 @@
 
 [resource]
 script = ExtResource("2_e71gq")
-Name = "basic"
+Name = ""
 Signs = Dictionary[int, ExtResource("1_7oriv")]({
 0: ExtResource("2_g4r58"),
 1: ExtResource("3_xxl5g"),

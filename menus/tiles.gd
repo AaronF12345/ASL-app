@@ -8,10 +8,12 @@ extends Control
 func _ready() -> void:
 	progress_bar.max_value = Options.quiz_length
 	progress_bar.value = Options.current_question
+	Options.wrong = 0
 
 func _on_button_2_pressed() -> void:
 	play_trans()
 	Options.current_question /= 2
+	Options.wrong /= 2
 	await trans.finished
 	get_tree().change_scene_to_file(results)
 

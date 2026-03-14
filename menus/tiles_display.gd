@@ -26,7 +26,10 @@ func create_question(id : int):
 	add_child(button)
 	var button2 : Button = TILE_BUTTON.instantiate()
 	button2.text = ""
-	button2.icon = get_sign(id).SignArt
+	if Options.alt_image:
+		button2.icon = get_sign(id).AltSignArt
+	else:
+		button2.icon = get_sign(id).SignArt
 	add_child(button2)
 	button.counterpart = button2
 	button2.counterpart = button

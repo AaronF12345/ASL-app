@@ -17,7 +17,7 @@
 
 [resource]
 script = ExtResource("2_e6ugj")
-Name = "school"
+Name = ""
 Signs = Dictionary[int, ExtResource("1_m0yxr")]({
 0: ExtResource("2_je4pn"),
 1: ExtResource("3_d6332"),

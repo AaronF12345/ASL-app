@@ -1,7 +1,7 @@
 [gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://ywfny4e2lpsu"]
 
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_1x76f"]
-[ext_resource type="Texture2D" uid="uid://b0e3ncwgjixx3" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign YES black boy-02 - Copy.png" id="1_qh022"]
+[ext_resource type="Texture2D" uid="uid://b3s2jq6a581vs" path="res://assets/Clipart/20 ABCs Set 2/Sign Clip Art/Sign YES black boy-02 - Copy.png" id="1_qh022"]
 [ext_resource type="Texture2D" uid="uid://86twvg78o5u4" path="res://assets/Clipart/4 Answers/Sign Clip Art/Sign YES black boy-01 - Copy.png" id="2_ug2lj"]
 
 [resource]

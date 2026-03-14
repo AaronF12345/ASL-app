@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://kgf1r31tkvqa"]
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://kgf1r31tkvqa"]
 
+[ext_resource type="Texture2D" uid="uid://dkle11ani223p" path="res://assets/Clipart/12 Emotions/Image Clip Art/mad - Copy.png" id="1_80b62"]
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_mxcft"]
 [ext_resource type="Texture2D" uid="uid://wekdv2r4hx0o" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign MAD-02 - Copy.png" id="2_6dnia"]
+[ext_resource type="Texture2D" uid="uid://bngitcdobql4k" path="res://assets/Clipart/12 Emotions/Image Clip Art/mad (2) - Copy.png" id="3_6dnia"]
 [ext_resource type="Texture2D" uid="uid://b8ob03erbr7ns" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign MAD-01 - Copy.png" id="4_xwu71"]
 
 [resource]
@@ -10,4 +12,6 @@ script = ExtResource("1_mxcft")
 Word = "mad"
 SignArt = ExtResource("4_xwu71")
 AltSignArt = ExtResource("2_6dnia")
+ImageArt = ExtResource("3_6dnia")
+AltImageArt = ExtResource("1_80b62")
 autofill = false

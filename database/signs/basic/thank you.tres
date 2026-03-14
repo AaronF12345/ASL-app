@@ -6,7 +6,7 @@
 
 [resource]
 script = ExtResource("3_cvlsd")
-Word = "thank You"
+Word = "thank you"
 SignArt = ExtResource("2_08unp")
 AltSignArt = ExtResource("1_wecec")
 autofill = false

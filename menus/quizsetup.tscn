@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dujrxl38287re"]
+[gd_scene load_steps=5 format=3 uid="uid://dujrxl38287re"]
 
 [ext_resource type="Script" uid="uid://c8qaw1alj28jc" path="res://menus/quizsetup.gd" id="1_dwhuv"]
 [ext_resource type="Theme" uid="uid://cs3h5trxxc7aw" path="res://main.tres" id="2_hdwss"]
+[ext_resource type="Script" uid="uid://dqk5on6h1k138" path="res://menus/check.gd" id="3_hdwss"]
 [ext_resource type="PackedScene" uid="uid://c7iqk576shc0i" path="res://trans.tscn" id="3_y6e0p"]
 
 [node name="setup" type="Control"]
@@ -103,6 +104,39 @@ min_value = 1.0
 max_value = 6.0
 value = 4.0
 
+[node name="PanelContainer3" type="PanelContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("2_hdwss")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer3"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer3/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_hdwss")
+text = "color"
+
+[node name="button" type="Button" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer3/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme = ExtResource("2_hdwss")
+theme_override_constants/icon_max_width = 2370
+text = "on"
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("3_hdwss")
+
+[node name="ReferenceRect" type="ReferenceRect" parent="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer3/HBoxContainer/button"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+border_width = 5.0
+
 [node name="start" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 theme = ExtResource("2_hdwss")
@@ -120,5 +154,6 @@ offset_bottom = 648.0
 
 [connection signal="value_changed" from="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer/SpinBox" to="." method="_on_spin_box_value_changed"]
 [connection signal="value_changed" from="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer2/HBoxContainer2/SpinBox2" to="." method="_on_spin_box_2_value_changed"]
+[connection signal="pressed" from="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer3/HBoxContainer/button" to="VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer3/HBoxContainer/button" method="_on_pressed"]
 [connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_button_pressed"]

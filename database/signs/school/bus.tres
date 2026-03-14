@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://berlv54want8p"]
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://berlv54want8p"]
 
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_lhd4m"]
-[ext_resource type="Texture2D" uid="uid://cn4bvyl1onu42" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign BUS-02 - Copy.png" id="2_uq2w2"]
+[ext_resource type="Texture2D" uid="uid://xekpprj0ehqp" path="res://assets/Clipart/2 Shapes Set 1/Image Clipart/rhombus kite-02.png" id="1_wf3yr"]
+[ext_resource type="Texture2D" uid="uid://c5pjl4tyicn6c" path="res://assets/Clipart/2 Shapes Set 1/Sign Clipart/Sign Shape Rhombus-03 - Copy.png" id="2_uq2w2"]
+[ext_resource type="Texture2D" uid="uid://cjv741u8tl11a" path="res://assets/Clipart/2 Shapes Set 1/Image Clipart/Rhombus Sign-01.png" id="3_t0mu4"]
 [ext_resource type="Texture2D" uid="uid://boxqi5rh81oqr" path="res://assets/Clipart/9 School Days/Sign Clip Art/Sign BUS-01 - Copy.png" id="4_f66kg"]
 
 [resource]
@@ -10,4 +12,6 @@ script = ExtResource("1_lhd4m")
 Word = "bus"
 SignArt = ExtResource("4_f66kg")
 AltSignArt = ExtResource("2_uq2w2")
+ImageArt = ExtResource("3_t0mu4")
+AltImageArt = ExtResource("1_wf3yr")
 autofill = false

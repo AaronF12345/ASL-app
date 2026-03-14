@@ -12,7 +12,10 @@ var signid : int = Options.rand.randi_range(0,Options.topic.Signs.size()-1)
 var list : PackedInt32Array
 
 func _ready() -> void:
-	texture_rect.texture = get_sign(signid).SignArt
+	if Options.alt_image:
+		texture_rect.texture = get_sign(signid).AltSignArt
+	else:
+		texture_rect.texture = get_sign(signid).SignArt
 	sign_label.text = ""
 	var correctnumb = Options.rand.randi_range(0,Options.answer_count-1)
 	for i in Options.answer_count:

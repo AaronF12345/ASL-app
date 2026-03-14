@@ -6,6 +6,7 @@ var topic : Topic
 @export var quiz_length : int = 5
 @export var current_question : int = 0
 @export var wrong : int = 0
+@export var alt_image : bool = false
 enum Types{
 	quiz,
 	tiles,

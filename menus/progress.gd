@@ -6,6 +6,7 @@ extends Control
 @onready var incorrect: Label = $"VBoxContainer/ScrollContainer/VBoxContainer/quiz incorrect/HBoxContainer/Label2"
 @onready var quizzes: Label = $VBoxContainer/ScrollContainer/VBoxContainer/quizzes/HBoxContainer/Label2
 @onready var tiles: Label = $VBoxContainer/ScrollContainer/VBoxContainer/tiles/HBoxContainer/Label2
+var playing_trans = false
 
 func _ready() -> void:
 	correct.text = str(Progress.correct_answers)
@@ -14,6 +15,9 @@ func _ready() -> void:
 	tiles.text = str(Progress.tiles_taken)
 
 func _on_button_pressed() -> void:
+	if playing_trans == true:
+		return
+	playing_trans =true
 	trans.switch()
 	await trans.finished
 	get_tree().change_scene_to_file(main)

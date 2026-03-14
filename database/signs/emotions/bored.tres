@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="AbstractSign" load_steps=4 format=3 uid="uid://cxgduvofu0qny"]
+[gd_resource type="Resource" script_class="AbstractSign" load_steps=6 format=3 uid="uid://cxgduvofu0qny"]
 
 [ext_resource type="Script" uid="uid://b8juwbjtk1hfc" path="res://database/sign.gd" id="1_6rbuy"]
+[ext_resource type="Texture2D" uid="uid://c0l8ccodr73cn" path="res://assets/Clipart/12 Emotions/Image Clip Art/bored - Copy.png" id="1_ee6au"]
 [ext_resource type="Texture2D" uid="uid://c5pc2bhb4a106" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign BORED-02 - Copy.png" id="2_2sopy"]
+[ext_resource type="Texture2D" uid="uid://dn8np5pfrlr4v" path="res://assets/Clipart/12 Emotions/Image Clip Art/bored (2) - Copy.png" id="3_2sopy"]
 [ext_resource type="Texture2D" uid="uid://c0qqkqkvfxyyr" path="res://assets/Clipart/12 Emotions/Sign Clip Art/Sign BORED-01 - Copy.png" id="4_g7btv"]
 
 [resource]
@@ -10,4 +12,6 @@ script = ExtResource("1_6rbuy")
 Word = "bored"
 SignArt = ExtResource("4_g7btv")
 AltSignArt = ExtResource("2_2sopy")
+ImageArt = ExtResource("3_2sopy")
+AltImageArt = ExtResource("1_ee6au")
 autofill = false

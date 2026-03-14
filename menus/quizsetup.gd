@@ -6,6 +6,7 @@ extends Control
 
 func _ready() -> void:
 	Options.quiz_length = $VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer/SpinBox.value
+	$VBoxContainer/ScrollContainer/VBoxContainer/PanelContainer/HBoxContainer/SpinBox.max_value = Options.topic.Signs.size() * 2
 
 func _on_button_pressed() -> void:
 	trans.switch()
